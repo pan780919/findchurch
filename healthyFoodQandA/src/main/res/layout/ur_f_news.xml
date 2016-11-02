@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NormalPageStyle"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ur_f_new_btn_cate"
+        style="@style/WMatchHWrap"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/ur_s_btn_cate_bk"
+        android:drawableRight="@drawable/icon_unfold"
+        android:textSize="18sp"
+        android:text="@string/ur_f_coupon_type_btn_cate"/>
+
+    <RelativeLayout
+        style="@style/WMatchHFull">
+
+        <ListView
+            android:id="@+id/ur_f_new_list_news"
+            style="@style/WHMatchParent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"/>
+
+        <ListView
+            android:id="@+id/ur_f_new_list_cate"
+            style="@style/WHMatchParent"
+            android:divider="@color/divider_grey"
+            android:dividerHeight="1dp"
+            android:background="@android:color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

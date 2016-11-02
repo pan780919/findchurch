@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_Listitem"
+    android:layout_width="fill_parent"
+    android:layout_height="64dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        style="@style/WHMatchParent"
+        android:background="@drawable/ur_s_list_bk"/>
+
+    <ImageView
+        android:id="@+id/gt_mission_i_img_vip"
+        style="@style/WHWrapContent"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/tag_vip" />
+
+    <ImageView
+        android:id="@+id/taskicon"
+        style="@style/WHWrapContent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/icon_m_download"/>
+
+    <LinearLayout
+        android:id="@+id/gt_misson_i_v_point"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/gt_misson_i_img_divider"
+            style="@style/ZtTabLine"
+            android:src="@drawable/list_line"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/TextView_TaskPoint"
+            style="@style/WFullHWrap"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/bk_orange"
+            android:textSize="16dip"
+            android:text="1233"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="@string/t_point"
+            android:textColor="@color/font_dark"
+            android:textSize="14dip" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView_TaskName"
+        style="@style/WFullHWrap"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/taskicon"
+        android:layout_toLeftOf="@id/gt_misson_i_v_point"
+        android:text="asdfasdf"
+        android:textColor="@color/font"
+        android:textSize="16dp" />
+
+    <RelativeLayout
+        style="@style/WHWrapContent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:id="@+id/ImageView_State"
+            style="@style/WHWrapContent"
+            android:src="@drawable/tag_full" />
+
+        <ImageView
+            style="@style/WHWrapContent"
+            android:id="@+id/RelativeLayout_ReUpload"
+            android:src="@drawable/tag_recertify" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

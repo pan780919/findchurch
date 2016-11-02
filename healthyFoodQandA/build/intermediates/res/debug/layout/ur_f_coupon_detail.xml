@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NormalPageStyle"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/ur_f_coupon_detail_web"
+        android:focusable="false"
+        style="@style/WMatchHFull"/>
+
+    <Button
+        android:id="@+id/ur_f_coupon_detail_btn_func"
+        style="@style/FullWidthButton"
+        android:text="@string/ur_f_coupon_detail_btn_func_draw"/>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/ur_f_coupon_detail.xml -->

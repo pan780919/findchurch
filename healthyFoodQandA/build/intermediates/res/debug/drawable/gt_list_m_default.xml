@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/list_m_default_click" /> <!-- pressed -->
+    <item android:state_focused="true"
+          android:drawable="@drawable/list_m_default_click" /> <!-- focused -->
+    <item android:drawable="@drawable/list_m_default" /> <!-- default -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/gt_list_m_default.xml -->

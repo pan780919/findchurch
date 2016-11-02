@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        style="@style/GtTop" >
+
+        <ImageButton
+            android:id="@+id/ImageButtonBack"
+            style="@style/GtTopBack" />
+
+        <TextView
+            style="@style/GtIndex_TextView"
+            android:layout_centerInParent="true"
+            android:text="@string/index_coupon" />
+
+        <ImageButton
+            android:id="@+id/ImageButtonHint"
+            style="@style/GtTopBack"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/gt_button_i" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/GtTab"
+        android:background="@drawable/tab_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ButtonAll"
+            style="@style/GtTabButtonClick"
+            android:text="@string/coupon_all" />
+
+        <View style="@style/GtTabLine" />
+
+        <Button
+            android:id="@+id/ButtonSave"
+            style="@style/GtTabButtonDefault"
+            android:text="@string/coupon_save" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/coupon_list_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="9"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

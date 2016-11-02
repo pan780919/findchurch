@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/LayoutItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_b_click">
+
+
+    <LinearLayout
+        android:id="@+id/LayoutPoiList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        >
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ImageViewPoiPicture"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/list_icon_poi"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"/>
+
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="17dp"
+                android:background="@drawable/list_distance_bg"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_alignBottom="@+id/ImageViewPicture"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/TextViewPoiKm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#553D3b"
+                    android:text="0.0km"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+
+
+            >
+
+            <TextView
+                android:id="@+id/TextViewPoiName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="榮僑汽車專業保養"
+                android:textColor="@color/font"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/TextViewPoiAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:text="02-2516-9870"
+                android:textColor="#787878"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/TextViewPoiTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:text="台北市中山區建國北路3段93巷5弄17號"
+                android:textColor="#787878"
+                android:textSize="14dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

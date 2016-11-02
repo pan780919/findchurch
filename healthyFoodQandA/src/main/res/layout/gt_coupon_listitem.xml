@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gt_list_coupon" >
+
+    <RelativeLayout
+        android:id="@+id/LayoutIcon"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ListItem_ImageNew"
+            android:layout_width="26dp"
+            android:layout_height="11dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:src="@drawable/icon_new" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/LayoutIcon"
+        android:duplicateParentState="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ListItem_TextTitle"
+            style="@style/Gt_TextView"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/icon_circle_green" />
+
+            <TextView
+                android:id="@+id/ListItem_TextCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:text="學習"
+                android:textColor="@color/gray"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/ListItem_TextLoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:visibility="gone"
+                android:text="新北市"
+                android:textColor="@color/gray"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/ListItem_TextDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:duplicateParentState="true"
+                android:text="1.1km"
+                android:textColor="@color/gray"
+                android:textSize="12dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/ListItem_TextTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:duplicateParentState="true"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:text="Time"
+                android:textColor="@color/gray"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

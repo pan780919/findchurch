@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/Layout_TopImage"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_below="@+id/Top"
+        android:background="@color/background"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/ImageView_TopImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/mbanner_review"
+            android:gravity="center"
+            android:text="@string/mission_inreview"
+            android:textColor="#7B978A"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/ImageView_TopImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="敬請耐心等待結果"
+            android:textColor="#787878"
+            android:textSize="12dp"
+            android:layout_marginTop="70dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_Content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/RelativeLayout_Bottom"
+        android:layout_below="@+id/Layout_TopImage"
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="-5dip"
+        android:orientation="vertical" >
+
+        <ImageView style="@style/GtListLine" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ImageView_TypeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/icon_m_info" />
+
+            <TextView
+                android:id="@+id/TextView_TaskName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:minLines="2"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip"
+                android:textColor="#313131"
+                android:textSize="18dip"
+                android:text="任務執行結果任務執行結果任務執行結果任務執行結果任務執行結果"
+                android:layout_marginTop="22dip"
+                android:layout_marginBottom="32dip"/>
+
+            <RelativeLayout
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/TextView_Point"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:shadowColor="#99000000"
+                        android:shadowDx="0"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:textColor="#ffffffff"
+                        android:textSize="22dip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="3dip"
+                        android:text="@string/t_point"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dip" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ImageView_Add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/t_result_2"
+            android:textColor="#ffffffff"
+            android:textSize="14dip"
+            android:visibility="gone" />
+        <ImageView style="@style/ZtListLine" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView_ResultContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip"
+                    android:textColor="#ff64635e"
+                    android:textSize="16dip"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="32dip">
+
+                    <TextView
+                        android:id="@+id/button"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/stitle_icon"
+                        android:textColor="#ffffff"
+                      />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dip"
+                        android:textColor="#A7823E"
+                        android:text="任務目標"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/TextView_TaskGoal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/font"
+                    android:textSize="16dip"
+                    android:text="任務完成"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/button"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/stitle_icon"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dip"
+                        android:textColor="#A7823E"
+                        android:text="任務獎勵"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Layout_TaskDes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@null" >
+
+                    <ImageView
+                        android:id="@+id/taskDesImag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/main_icon_reward"
+                        />
+                    <TextView
+                        android:id="@+id/TextView_TaskReward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="#BF6330"
+                        android:textSize="20dip"
+                        android:layout_marginLeft="80dp"
+                        android:gravity="right"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:orientation="horizontal"
+                        android:paddingRight="10dip"
+                        android:layout_marginTop="50dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text="目前有"
+                            android:textColor="#A1978D"
+                            android:textSize="14dip" />
+
+                        <TextView
+                            android:id="@+id/result_mypoint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:textColor="#BF6330"
+                            android:text="0"
+                            android:textSize="20dip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text="@string/t_point"
+                            android:textColor="#A1978D"
+                            android:textSize="14dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@id/RelativeLayout_Bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/ButtonBackList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn1click"
+            android:text="回賺點數活動列表"
+            android:textColor="@color/font_white"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/ur_v_reward_redeem_result_img_pic"
+        style="@style/WMatchHFull"
+        android:background="@drawable/exchange_success"/>
+
+    <LinearLayout
+        style="@style/WMatchHWrap"
+        android:orientation="vertical"
+        android:background="@drawable/exchange_bg">
+
+        <LinearLayout
+            android:id="@+id/ur_v_reward_redeem_result_layout_success"
+            style="@style/WMatchHWrap"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/ur_v_reward_redeem_result_text_title"
+                style="@style/TextBlack31Title22SP"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="屋頂美式餐廳，現炸薯條一份"/>
+
+            <LinearLayout
+                style="@style/WHWrapContent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="8dp">
+
+                <TextView
+                    style="@style/TextGrey16SP"
+                    android:textSize="18sp"
+                    android:text="@string/ur_f_reward_form_check_result_amount"/>
+
+                <TextView
+                    android:id="@+id/ur_v_reward_redeem_result_text_amount"
+                    style="@style/TextOrangePoint20SP"
+                    android:textSize="18sp"
+                    android:text="1"/>
+
+                <TextView
+                    style="@style/TextGrey16SP"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="18sp"
+                    android:text="@string/ur_gen_unit_unit"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WHWrapContent"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextGrey16SP"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="18sp"
+                    android:text="@string/ur_f_reward_form_check_result_available"/>
+
+                <TextView
+
+                    android:id="@+id/ur_v_reward_redeem_result_text_point"
+                    style="@style/TextOrangePoint20SP"
+                    android:textSize="18sp"
+                    android:text="1"/>
+
+                <TextView
+                    style="@style/TextGrey16SP"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="18sp"
+                    android:text="@string/ur_gen_unit_point"/>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextBrownTitle18SP"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/ur_f_reward_form_check_result_notice"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ur_v_reward_redeem_result_layout_failed"
+            style="@style/WMatchHWrap"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/TextGrey16SP"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/ur_f_reward_form_check_result_text_titleFailReason"/>
+
+            <TextView
+                android:id="@+id/ur_v_reward_redeem_result_text_fReason"
+                style="@style/TextBlack31Title22SP"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Reason"/>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/ur_v_reward_redeem_result_btn_ok"
+            style="@style/FullWidthButton"
+            android:text="@string/ok"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+
+</LinearLayout>

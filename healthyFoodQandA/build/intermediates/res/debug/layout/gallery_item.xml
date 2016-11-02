@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/RelativeLayout_GalleryTouch"
+	>
+	<ImageView
+		android:layout_width="91dip"
+		android:layout_height="60dip"
+		android:id="@+id/Button_Name"
+		android:layout_marginTop="5dip"
+		android:layout_centerHorizontal="true"
+		>
+	</ImageView>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="40dip"
+		android:id="@+id/Text_Name"
+		android:layout_below="@id/Button_Name"
+		android:layout_centerHorizontal="true"
+		android:textSize="16dip"
+		android:textColor="#FFFFFF"
+		android:gravity="center"
+		>
+	</TextView>
+	
+</RelativeLayout>
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/gallery_item.xml -->

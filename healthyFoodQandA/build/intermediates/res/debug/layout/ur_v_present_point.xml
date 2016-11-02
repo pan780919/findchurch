@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    style="@style/WHWrapContent"
+    android:gravity="center_vertical|right"
+    android:paddingRight="4dp"
+    android:background="@drawable/point">
+
+    <TextView
+        style="@style/WHWrapContent"
+        android:layout_marginLeft="12dp"
+        android:textSize="10sp"
+        android:textColor="@color/text_hint_orange"
+        android:text="@string/ur_gen_present"/>
+
+    <TextView
+        android:id="@+id/ur_v_present_point_text_point"
+        style="@style/WHWrapContent"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:text="135004"/>
+
+    <TextView
+        style="@style/WHWrapContent"
+        android:layout_marginLeft="4dp"
+        android:textSize="10sp"
+        android:textColor="@color/text_hint_orange"
+        android:text="@string/ur_gen_unit_point"/>
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/ur_v_present_point.xml -->

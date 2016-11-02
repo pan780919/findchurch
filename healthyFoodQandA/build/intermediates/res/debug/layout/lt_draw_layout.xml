@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="com.com.tms.lazytip.DrawLayout"
+    android:layout_width="195dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/drawer_menu_layout">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/drawer_btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn"
+              >
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/user_default"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    >
+                </ImageView>
+                <TextView
+                    android:id="@+id/logintex"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/draw_login"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/drawer_btn_list"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn">
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="57dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/click_menu_fav"
+                    android:duplicateParentState="true"
+                    >
+
+                </ImageView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/draw_lsit"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                  />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/drawer_btn_home"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn">
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="57dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/click_menu_home"
+                    android:duplicateParentState="true"
+                    >
+
+                </ImageView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/draw_home"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                  />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#c9e4d8"/>
+            <LinearLayout
+                android:id="@+id/drawer_btn_whos"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn">
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="57dp"
+                    android:layout_height="46dp"
+                    android:src="@drawable/click_menu_writer"
+                    android:duplicateParentState="true"
+                    >
+
+                </ImageView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/draw_whos"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/drawer_btn_oil"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn">
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="57dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/click_menu_cloudoil"
+                    android:duplicateParentState="true"
+                    >
+
+                </ImageView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/draw_oil"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#c9e4d8"/>
+            <LinearLayout
+                android:id="@+id/drawer_btn_task"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn">
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="57dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/click_menu_mission"
+                    android:duplicateParentState="true"
+
+                    >
+                </ImageView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/draw_task"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/drawer_btn_group"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn">
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="57dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/click_menu_gift"
+                    android:duplicateParentState="true"
+                    >
+                </ImageView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/draw_group"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/drawer_btn_record"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn">
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="57dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/clickl_menu_record"
+                    android:duplicateParentState="true"
+                    >
+                </ImageView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/draw_record"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                   android:layout_weight="2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/drawer_btn_about"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal"
+                android:background="@drawable/menu_list_btn">
+                <ImageView
+                    android:id="@+id/imag_icon"
+                    android:layout_width="57dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/click_menu_about"
+                    android:duplicateParentState="true"
+
+                    >
+                </ImageView>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/draw_about"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                   android:layout_weight="2"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/lt_draw_layout.xml -->

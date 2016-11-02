@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        style="@style/GtTop"
+        android:background="@color/bk_orange">
+
+        <ImageButton
+            android:id="@+id/ImageButtonBack"
+            style="@style/GtTopBack"
+            />
+
+        <TextView
+            style="@style/GtIndex_TextView"
+            android:layout_centerInParent="true"
+            android:text="內容"/>
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/ImageButtonshare"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_toLeftOf="@+id/ImageButtonNewsHint"-->
+            <!--android:background="@null"-->
+            <!--android:src="@drawable/hbtnshare"-->
+            <!--/>-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/ImageButtonNewsHint"-->
+            <!--style="@style/GtTopBack"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:src="@drawable/hbtnfav"-->
+            <!--/>-->
+
+        <ImageButton
+            android:id="@+id/ImageButtonNewsFav"
+            style="@style/GtTopBack"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/htbnfav"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/WebView"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:id="@+id/adlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        android:visibility="gone"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
+
+

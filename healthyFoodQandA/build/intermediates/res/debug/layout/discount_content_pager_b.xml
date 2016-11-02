@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_BarcodeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/TextView_Tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="@string/barcode_tip"
+                android:textColor="@color/dark_gray"
+                android:textSize="12dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/ImageView_BarcodePicture"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp"
+                    android:background="@color/dark_gray"
+                    android:padding="1dp" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/ImageView_SealChange"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:visibility="gone"
+                    android:layout_marginLeft="-25dp"
+                    android:layout_centerVertical="true"
+					android:layout_toRightOf="@+id/ImageView_BarcodePicture"                    
+                    android:background="@drawable/seal_change"
+                    android:padding="5dp" >
+                </ImageView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView_BarcodeNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="BarcodeNumber"
+                android:textColor="#000000"
+                android:textSize="24dp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView_CouponType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/coupon_type_a"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/TextView_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/coupon_text_1a"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/coupon_text_4"
+                android:textColor="@color/red"
+                android:textSize="14.5dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView_Picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/Button_DownloadPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/gt_button3_default"
+            android:text="@string/download_and_show"
+            android:textColor="#ffffff"
+            android:textSize="14.5dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/TextView_CouponDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:autoLink="all"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="content"
+            android:textColor="@color/font"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/discount_content_pager_b.xml -->

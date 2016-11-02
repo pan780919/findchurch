@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        style="@style/TextBlack31Title22SP"
+        android:layout_margin="16dp"
+        android:text="@string/ur_v_firstNotice_notice"/>
+
+    <CheckBox
+        android:id="@+id/ur_v_first_hint_checkbox"
+        style="@style/WHWrapContent"
+        android:layout_margin="16dp"
+        android:button="@drawable/ur_s_checkbox"
+        android:textColor="@color/text_brown"
+        android:text="@string/ur_v_firstNotice_noShow"/>
+
+    <LinearLayout
+        style="@style/WMatchHWrap"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ur_v_first_btn_cancel"
+            style="@style/WFullHWrap"
+            android:background="@null"
+            android:textColor="@color/subtitle_grey"
+            android:text="@string/ur_v_firstNotice_no"/>
+
+        <Button
+            android:id="@+id/ur_v_first_btn_go"
+            style="@style/WFullHWrap"
+            android:background="@null"
+            android:textColor="@color/bk_orange"
+            android:text="@string/ur_v_firstNotice_goRegister"/>
+
+    </LinearLayout>
+
+</LinearLayout>

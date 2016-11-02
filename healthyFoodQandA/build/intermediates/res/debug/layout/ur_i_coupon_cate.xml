@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WMatchHWrap"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/ur_i_coupon_cate_text_title"
+        style="@style/TextBrownTitle18SP"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="25dp"
+        android:text="全部" />
+
+    <ImageView
+        android:id="@+id/ur_i_coupon_cate_img_check"
+        style="@style/WHWrapContent"
+        android:layout_margin="20dp"
+        android:src="@drawable/icon_choose"/>
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/ur_i_coupon_cate.xml -->

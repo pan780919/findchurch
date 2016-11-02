@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        style="@style/GtTop" >
+
+        <ImageButton
+            android:id="@+id/ImageButtonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/gt_button_back" />
+
+        <TextView
+            android:id="@+id/TextViewSetting"
+            style="@style/GtIndex_TextView"
+            android:layout_centerInParent="true"
+            android:text="@string/setting_about_title" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/WebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/gt_setting_about.xml -->

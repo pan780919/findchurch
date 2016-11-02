@@ -1,0 +1,167 @@
+<LinearLayout
+    android:id="@+id/main_parent_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"
+
+        />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main layout -->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9"
+                    android:orientation="horizontal"
+                    android:background="#b26d47">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/my_love_list_btn1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/htab_btn_bclick"
+                                android:gravity="center"
+                                android:text="文章"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18dp">
+
+                            </Button>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/my_love_list_btn2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/htab_btn_bclick"
+                                android:gravity="center"
+                                android:text="保養廠"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18dp">
+
+                            </Button>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="horizontal"
+                        android:background="@drawable/htab_btn">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:id="@+id/myTestLayout"
+               >
+
+                    <ImageView
+                        android:layout_marginTop="100dp"
+                        android:layout_width="61dp"
+                        android:layout_height="77dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/list_tip_noinfo"></ImageView>
+
+                    <TextView
+                        android:id="@+id/my_love_list_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="TESt"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="172dp"
+                        android:layout_height="11dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/list_tip_line"></ImageView>
+                    <TextView
+                        android:id="@+id/my_love_list_text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="TESt"
+                        android:textSize="18dp">
+
+                    </TextView>
+                    <Button
+                        android:id="@+id/my_love_list_btn3"
+                        android:layout_width="160dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn3a"
+                        android:text="開車懶人包"
+                        android:textSize="18dp"></Button>
+                </LinearLayout>
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:id="@+id/myLoveList"
+                    android:visibility="gone">
+                </ListView>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <!-- Nav drawer -->
+        <com.tms.lazytip.DrawLayout
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|start">
+
+        </com.tms.lazytip.DrawLayout>
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>

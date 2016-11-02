@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Gt APP -->
+    <color name="background">#efefef</color>
+    <color name="background_task">#d9f1bd</color>
+    <color name="font">#313131</color>
+    <color name="font_dark">#A1978D</color>
+    <color name="font_white">#ffffff</color>
+    <color name="font_green">#00763e</color>
+    <color name="font_green_dark">#78be28</color>
+    <color name="font_red">#e4492f</color>
+    <color name="font_setting">#daffb0</color>
+    <color name="font_dissable">#004826</color>
+    <color name="event_font">#999999</color>
+    <color name="tab_default">#787878</color>
+    <color name="tab_click">#00763e</color>
+    <color name="dialog_background">#30000000</color>
+    <color name="taskpoint">#BF6330</color>
+    <color name="taskask">#b2a093</color>
+    <!-- Tab Color -->
+    <color name="tab_white">#ffffff</color>
+    <color name="tab_blue">#18299F</color>
+
+    <!-- PushLocus -->
+    <color name="red">#f03241</color>
+    <color name="cyan">#6bcbca</color>
+    <color name="green">#97ce68</color>
+    <color name="yellow">#ffc371</color>
+    <color name="blue">#0090ff</color>
+    <color name="purple">#a67dba</color>
+    <color name="white">#ffffff</color>
+    <color name="bright_brown">#d8cdbd</color>
+    <color name="brown">#94846e</color>
+    <color name="dark_brown">#655845</color>
+    <color name="dark_gray">#434343</color>
+    <color name="gray">#a0a0a0</color>
+    <color name="brown_gold">#a07828</color>
+    <color name="black">#000000</color>
+    <color name="gray_line">#cdcdcd</color>
+    
+    <!-- Auto Scroll -->
+    <color name="trans_light">#99eaeaea</color>
+    <color name="black2">#ff666666</color>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+
+
+    <!--    =============   UR  =============   -->
+
+    <color name="subtitle_grey">#8c8c8c</color>
+    <color name="bk_yellow">#f6f4e9</color>
+    <color name="bk_yellow_deeper">#fcf7d6</color>
+    <color name="bk_orange">#f9835e</color>
+
+    <color name="divider_grey">#d9d9d9</color>
+    <color name="divider_deep_grey">#e9e8e5</color>
+    <color name="divider_deep_grey_ca">#CACACA</color>
+
+    <color name="text_yellow">#fff092</color>
+    <color name="text_brown">#5E4330</color>
+    <color name="text_black_a7e">#7effffff</color>
+    <color name="text_black_31">#313131</color>
+    <color name="text_gold">#fff092</color>
+
+    <color name="indicator_normal">#55000000</color>
+    <color name="indicator_show">#fff092</color>
+
+    <color name="text_bk_grey">#B2A093</color>
+    <color name="text_hint_orange">#EAAB97</color>
+
+    <color name="bk_click_yellow">#fcf7d6</color>
+
+
+
+</resources>

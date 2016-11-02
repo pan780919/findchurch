@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WHMatchParent"
+    android:orientation="vertical"
+    android:background="@color/bk_orange">
+
+    <RelativeLayout
+        android:id="@+id/ur_f_coupon_redeem_layout_serial"
+        style="@style/WMatchHWrap"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/ur_s_coupon_redeem_img_serial_bk"
+            style="@style/WMatchHWrap"
+            android:background="@drawable/ur_s_coupon_redeem_serial_bk"/>
+
+        <TextView
+            android:id="@+id/ur_s_coupon_redeem_text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_yellow"
+            android:textSize="15sp"
+            android:text="@string/ur_f_coupon_redeem_text_serial"/>
+
+        <TextView
+            android:id="@+id/ur_s_coupon_redeem_text_serial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ur_s_coupon_redeem_text_title"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:maxEms="6"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="卡號:VLUKAA00test0013密碼: F94549LG43M3test"/>
+
+        <TextView
+            android:id="@+id/ur_s_coupon_redeem_text_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@id/ur_s_coupon_redeem_img_serial_bk"
+            android:gravity="center"
+            android:textColor="@color/text_brown"
+            android:textSize="24sp"
+            android:text="@string/ur_f_coupon_redeem_btn_confirm"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ur_s_coupon_redeem_img_serial_bk"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:text="@string/ur_f_coupon_redeem_text_serial_notice"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/ur_f_coupon_redeem_btn_nouse"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/ur_f_coupon_redeem_layout_serial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ur_s_btn_nouse_bk"
+        android:textColor="@color/text_brown"
+        android:textSize="18sp"
+        android:text="@string/ur_f_coupon_redeem_btn_no"/>
+
+    <ImageView
+        android:id="@+id/ur_f_coupon_redeem_img_start"
+        style="@style/WHWrapContent"
+        android:layout_above="@id/ur_f_coupon_redeem_layout_serial"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
+        android:src="@drawable/start"/>
+
+    <TextView
+        style="@style/WHWrapContent"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/ur_f_coupon_redeem_img_start"
+        android:layout_margin="8dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:text="@string/ur_f_coupon_redeem_text_show"/>
+
+
+
+</RelativeLayout>

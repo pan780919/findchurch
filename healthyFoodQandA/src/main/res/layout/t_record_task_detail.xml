@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/mission_bg">
+        <ImageView
+            android:id="@+id/ImageView_TopImage"
+            style="@style/WHWrapContent"
+            android:layout_centerInParent="true"
+         />
+
+        <TextView
+            style="@style/TextBrownTitle18SP"
+            android:id="@+id/TestView_TopView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textStyle="bold"
+           />
+    </RelativeLayout>
+    <LinearLayout
+        style="@style/WMatchHWrap"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/TypeIcon"
+            style="@style/WHWrapContent"
+            android:src="@drawable/icon_draw"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:id="@+id/TextView_TaskName"
+            style="@style/WFullHWrap"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="開幕慶！點數大方送，名額限1000名"/>
+
+    </LinearLayout>
+    <ImageView
+        style="@style/WMatchHWrap"
+        android:src="@drawable/line2"/>
+
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView_ResultContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip"
+                    android:textColor="#ff64635e"
+                    android:textSize="16dip"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    style="@style/WHWrapContent"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        style="@style/WHWrapContent"
+                        android:src="@drawable/block"/>
+
+                    <TextView
+                        android:id="@+id/ur_f_game_result_text_noticeText"
+                        style="@style/WHWrapContent"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/text_brown"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:text="@string/ur_f_game_result_title_tip_success"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/TextView_TaskGoal"
+                    style="@style/TextBlack31Title22SP"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/ur_f_game_result_notice_success"/>
+
+                <LinearLayout
+                    style="@style/WHWrapContent"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        style="@style/WHWrapContent"
+                        android:src="@drawable/block"/>
+
+                    <TextView
+                        style="@style/WHWrapContent"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/text_brown"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:text="@string/ur_f_game_result_title_tip_success"/>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/TextView_TaskWord"
+                    style="@style/TextBlack31Title22SP"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/ur_f_game_result_notice_success"/>
+            <LinearLayout
+                android:id="@+id/ur_f_game_result_layout_rewardSuccess"
+                style="@style/WMatchHWrap"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp">
+
+                <LinearLayout
+                    android:id="@+id/Layout_TaskReward"
+                    style="@style/WHWrapContent"
+
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_bonus">
+
+                    <TextView
+                        style="@style/TextBrownTitle20SPB"
+                        android:layout_marginLeft="72dp"
+                        android:text="@string/ur_f_game_result_reward_gain_point"/>
+
+                    <ImageView
+                        style="@style/WHWrapContent"
+                        android:src="@drawable/icon_x"/>
+
+                    <TextView
+                        android:id="@+id/TextView_TaskReward"
+                        style="@style/TextOrangePoint20SP"
+                        android:text="0"/>
+
+                    <TextView
+                        style="@style/TextBrownTitle20SPB"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/ur_gen_unit_point"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/setlist_checkoff" android:state_checked="false"/>
+    <item android:drawable="@drawable/setlist_checkon" android:state_checked="true"/>
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/gt_setlist_check.xml -->

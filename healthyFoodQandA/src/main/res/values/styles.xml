@@ -1,0 +1,313 @@
+<resources>
+
+    <!-- GT APP Style -->
+
+    <!--<style name="GtIndex_RelativeLayout">-->
+        <!--<item name="android:background">@drawable/gt_button_bg</item>-->
+        <!--<item name="android:layout_width">161dp</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:clickable">true</item>-->
+        <!--<item name="android:gravity">center_horizontal</item>-->
+    <!--</style>-->
+
+    <style name="GtIndex_TextView" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="GtIndex_ImageView" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="GtIndex_Button_TextView" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/font</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="GtTop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:padding">4dp</item>
+
+    </style>
+
+    <style name="GtTopBack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/ur_poi_btnbake</item>
+    </style>
+
+    <style name="GtTab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="GtTabLine">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@drawable/line</item>
+    </style>
+
+    <style name="ZtTabLine">
+        <item name="android:layout_width">9dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:background">@drawable/list_line</item>
+    </style>
+
+    <style name="GtTabButtonDefault">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/tab_default</item>
+        <item name="android:textColor">@color/tab_default</item>
+    </style>
+
+    <style name="GtTabButtonClick">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/tab_default_click</item>
+        <item name="android:textColor">@color/tab_click</item>
+    </style>
+
+    <style name="Gt_TextView" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/font</item>
+        <item name="android:textSize">20dp</item>
+
+    </style>
+
+    <style name="GtList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="GtListLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/line</item>
+    </style>
+
+    <style name="ZtListLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/line_dotted</item>
+    </style>
+
+    <style name="GtDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarSize">50dip</item>
+        <item name="android:actionBarSize">50dip</item>
+    </style>
+
+
+    <!--&lt;!&ndash; Application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">-->
+
+    <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--</style>-->
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/ic_media_play</item>-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyCouponDialog" parent="android:Theme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/ic_media_play</item>-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="RedeemDialog" parent="android:Theme.Dialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/gery_back</item>
+    </style>
+
+    <color name="gery_back">#aa000000</color>
+
+    <style name="Theme.CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_style</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/ur_s_checkbox</item>
+
+    </style>
+
+    <style name="TmsToolber" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <!--    ============    UR  ============    -->
+
+
+    <!-- Layout Width, Height -->
+    <style name="WHMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WHWrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WMatchHWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WWrapHMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WMatchHFull">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="WFullHWrap">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="NormalPageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/bk_yellow</item>
+    </style>
+
+
+    <!-- Text View -->
+    <style name="TextBlackTitle24SP" parent="WHWrapContent">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBlackTitle20SP" parent="WMatchHWrap">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextBlackSubtitle16SP" parent="WMatchHWrap">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/subtitle_grey</item>
+    </style>
+
+    <style name="TextGrey16SP" parent="WHWrapContent">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/subtitle_grey</item>
+    </style>
+
+    <style name="TextBrownTitle18SP" parent="WMatchHWrap">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_brown</item>
+    </style>
+
+    <style name="TextBrownTitle20SPB" parent="WMatchHWrap">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_brown</item>
+    </style>
+
+    <style name="TextBlack31Title22SP" parent="WMatchHWrap">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_black_31</item>
+    </style>
+
+    <style name="TextOrangePoint20SP" parent="WHWrapContent">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/bk_orange</item>
+    </style>
+
+
+    <!-- Button -->
+    <style name="FullWidthButton" parent="WMatchHWrap">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/ur_s_btn_long_bk</item>
+    </style>
+
+    <style name="OrganButton" parent="WMatchHWrap">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/ur_s_btn_long_bk</item>
+    </style>
+
+    <style name="NormalEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:background">@drawable/ur_s_edit_bk</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

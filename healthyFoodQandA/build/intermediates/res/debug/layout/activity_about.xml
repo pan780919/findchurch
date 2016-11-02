@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/toolbar"
+        />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/mwebview_about"
+                />
+
+        </LinearLayout>
+
+        <!-- Nav drawer -->
+        <com.tms.lazytip.DrawLayout
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|start">
+
+        </com.tms.lazytip.DrawLayout>
+
+
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/activity_about.xml -->

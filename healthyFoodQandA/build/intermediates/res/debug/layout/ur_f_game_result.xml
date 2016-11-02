@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/mission_bg">
+
+        <ImageView
+            android:id="@+id/ur_f_game_result_img_resultTitle"
+            style="@style/WHWrapContent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/mission_success"/>
+        
+        <TextView
+            style="@style/TextBrownTitle18SP"
+            android:id="@+id/ur_f_game_result_text_resultTitle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:text="@string/ur_f_game_result_title_success"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/WMatchHWrap"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            style="@style/WHWrapContent"
+            android:src="@drawable/icon_draw"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:id="@+id/ur_f_game_result_text_title"
+            style="@style/WFullHWrap"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="開幕慶！點數大方送，名額限1000名"
+            android:textColor="#313131" />
+
+    </LinearLayout>
+    
+    <ImageView
+        style="@style/WMatchHWrap"
+        android:src="@drawable/line2"/>
+    
+    
+    
+    <LinearLayout
+        style="@style/WHWrapContent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp">
+        
+        <ImageView
+            style="@style/WHWrapContent"
+            android:src="@drawable/block"/>
+        
+        <TextView
+            android:id="@+id/ur_f_game_result_text_noticeText"
+            style="@style/WHWrapContent"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/text_brown"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="@string/ur_f_game_result_title_tip_success"/>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ur_f_game_result_text_notice"
+        style="@style/TextBlack31Title22SP"
+        android:layout_marginLeft="16dp"
+        android:text="@string/ur_f_game_result_notice_success"/>
+
+    
+    
+    <LinearLayout
+        style="@style/WHWrapContent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            style="@style/WHWrapContent"
+            android:src="@drawable/block"/>
+
+        <TextView
+            style="@style/WHWrapContent"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/text_brown"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="@string/ur_f_game_result_title_tip_success"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ur_f_game_result_layout_rewardSuccess"
+        style="@style/WMatchHWrap"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+
+        <LinearLayout
+            style="@style/WHWrapContent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_bonus">
+
+            <TextView
+                style="@style/TextBrownTitle20SPB"
+                android:layout_marginLeft="72dp"
+                android:text="@string/ur_f_game_result_reward_gain_point"/>
+
+            <ImageView
+                style="@style/WHWrapContent"
+                android:src="@drawable/icon_x"/>
+            
+            <TextView
+                android:id="@+id/ur_f_game_result_text_gainPoint"
+                style="@style/TextOrangePoint20SP"
+                android:text="0"/>
+
+            <TextView
+                style="@style/TextBrownTitle20SPB"
+                android:layout_marginLeft="8dp"
+                android:text="@string/ur_gen_unit_point"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ur_f_game_result_layout_availablePoint"
+            style="@style/WHWrapContent"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/TextBlackSubtitle16SP"
+                android:layout_width="wrap_content"
+                android:text="@string/ur_f_game_result_available_point"/>
+
+            <TextView
+                android:id="@+id/ur_f_game_result_text_availablePoint"
+                style="@style/TextOrangePoint20SP"
+                android:textSize="16sp"
+                android:text="100"/>
+
+            <TextView
+                style="@style/TextBlackSubtitle16SP"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/ur_gen_unit_point"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ur_f_game_result_text_reason"
+        style="@style/TextBlack31Title22SP"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/ur_f_game_result_reward_failed"/>
+
+
+
+
+    <LinearLayout
+        style="@style/WMatchHFull"/>
+
+    <Button
+        android:id="@+id/ur_f_game_result_btn_goHome"
+        style="@style/FullWidthButton"
+        android:text="@string/ur_f_game_result_btn_go_homePage"/>
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/ur_f_game_result.xml -->

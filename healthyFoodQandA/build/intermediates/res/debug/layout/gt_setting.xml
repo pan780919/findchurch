@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        style="@style/GtTop" >
+
+        <ImageButton
+            android:id="@+id/ImageButtonBack"
+            style="@style/GtTopBack" />
+
+        <TextView
+            android:id="@+id/TextViewSetting"
+            style="@style/GtIndex_TextView"
+            android:layout_centerInParent="true"
+            android:text="@string/index_setting" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LayoutAbout"
+        style="@style/GtList"
+        android:background="@drawable/gt_setlist_default" >
+
+        <TextView
+            style="@style/Gt_TextView"
+            android:layout_marginLeft="10dp"
+            android:text="@string/setting_about" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LayoutAutoDeleteCoupon"
+        style="@style/GtList" >
+
+        <ToggleButton
+            android:id="@+id/ToggleButtonIsAutoDeleteCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gt_setlist_check"
+            android:textOff=""
+            android:textOn="" />
+
+        <TextView
+            style="@style/Gt_TextView"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:text="@string/setting_auto_delete_coupon" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/gt_setting.xml -->

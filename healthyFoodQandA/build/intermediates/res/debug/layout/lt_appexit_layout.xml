@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/lldialog"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/alert_bg"
+              android:padding="32dp"
+              android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/loginTexttittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:text="您確定要離開愛車懶人包?"
+        android:textColor="#BF6330"/>
+
+    <TextView
+        android:id="@+id/loginTextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="32dp"
+        android:text="確定要離開?"
+        android:textColor="#A1978D"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dip"
+        android:background="@color/white"
+        android:gravity="center">
+        <Button
+            android:id="@+id/dialog_button_no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn2_a_dissable"
+            android:text="否"
+            android:textColor="@color/white" />
+        <View
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/dialog_button_yes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/lt_button2_default"
+            android:text="是"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/lt_appexit_layout.xml -->

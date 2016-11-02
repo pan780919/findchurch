@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lldialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                  android:background="@drawable/alert_bg"
+                  android:padding="32dp"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:text="0800-010-010"
+        android:textColor="#BF6330"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="32dp"
+        android:text="撥電話至全峰進行道路救援"
+        android:textColor="#A1978D"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dip"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/dialog_button_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn2_a_dissable"
+                android:text="取消"
+                android:textColor="#FFFFFF" />
+
+            <View
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/dialog_button_ok"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/lt_button2_default"
+                android:text="撥電話"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/lt_callphone_layout.xml -->

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_list"
+         android:orientation="vertical" >
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+
+    >
+    <TextView
+        android:id="@+id/loginTexttittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="您的優惠券序號:"
+       android:textColor="#686868"
+        android:paddingTop="18dp"
+       android:gravity="center"/>
+
+</RelativeLayout>
+
+    <TextView
+
+        android:id="@+id/coupon_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="123456789"
+        android:textColor="#313131"
+        android:paddingTop="4dp"
+        android:paddingBottom="32dp"
+        android:gravity="center"/>
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="#f8f8f8"
+        >
+
+    </View>
+    <TextView
+
+        android:id="@+id/copy_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="複製序號"
+        android:textColor="#f9835e"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:gravity="center"/>
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="#f8f8f8"
+        android:paddingBottom="8dp"
+        >
+
+    </View>
+
+    <TextView
+
+        android:id="@+id/detail_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="刪除優惠券"
+        android:textColor="#ff1313"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:gravity="center"/>
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:background="#f8f8f8"
+        android:paddingBottom="8dp"
+        >
+
+    </View>
+    <TextView
+
+        android:id="@+id/coupon_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="取消"
+        android:textColor="#686868"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:gravity="center"/>
+
+    </LinearLayout>

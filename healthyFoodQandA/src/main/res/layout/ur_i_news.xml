@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WMatchHWrap"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        style="@style/WMatchHWrap"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/ur_s_coupon_list_i_bk" >
+
+
+        <ImageView
+            android:id="@+id/ur_i_news_img_icon"
+            android:layout_width="70dp"
+            android:layout_height="90dp"/>
+
+
+        <LinearLayout
+            style="@style/WFullHWrap"
+            android:orientation="vertical"
+            android:paddingLeft="8dp">
+
+            <TextView
+                android:id="@+id/ur_i_news_text_title"
+                style="@style/TextBlackTitle20SP"
+                android:text="咖啡弄X澳門航空 登機證優惠活動"/>
+
+            <TextView
+                android:id="@+id/ur_i_news_text_time"
+                style="@style/TextBlackSubtitle16SP"
+                android:text="2015-07-08 16:50"/>
+
+            <TextView
+                android:id="@+id/ur_i_news_text_cate"
+                style="@style/TextBlackSubtitle16SP"
+                android:text="類別001"/>
+
+        </LinearLayout>
+
+        <ImageView
+            style="@style/WHWrapContent"
+            android:layout_marginRight="-8dp"
+            android:src="@drawable/icon_arrow"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">新北找教堂</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_two">新北找教堂</string>
+    <string name="title_activity_headpage">新北找教堂</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7019441527375550/8291407829</string>
+    <string name="Network_status">網路狀態</string>
+    <string name="no_network ">目前無網路連線</string>
+    <string name="setting">設定</string>
+    <string name="cancel">取消</string>
+    <string name="ok">確定</string>
+    <string name="Network_in">網路連線中!!!"</string>
+    <string name="waitting">請稍後.....</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_video_page">VideoPageActivity</string>
+    <string name="title_name">提供使用者查詢新北市各教堂資訊位置,並提供導航到該教堂功能,點擊電話還能撥打電話至教堂,方便又實用</string>
+
+    <!-- GT APP -->
+    <string name="index_news">最新消息</string>
+    <string name="index_mission">體驗任務</string>
+    <string name="index_exchange">兌換牆</string>
+    <string name="index_coupon">折扣卷</string>
+    <string name="index_record">活動歷史記錄</string>
+    <string name="index_wifi">Wifi升級</string>
+    <string name="index_member">會員專區</string>
+    <string name="index_about">關於</string>
+    <string name="index_contactcustomerservice">聯絡客服</string>
+    <string name="index_privacy">隱私權政策</string>
+    <string name="index_eula">服務條款</string>
+
+    <string name="index_setting">設定</string>
+    <string name="index_iknow">謝謝，我知道了</string>
+    <string name="index_cant_get_data">暫時無法取得資料，請稍候再試...</string>
+
+    <!-- GT APP SmartId -->
+    <string name="smartid_login_tip">請先登入SmartID</string>
+
+    <!-- GT APP News -->
+    <string name="news_content">內容</string>
+    <string name="news_product">產品</string>
+    <string name="news_shop">門市</string>
+
+    <!-- GT APP Mission -->
+    <string name="mission_title">任務內容</string>
+    <string name="mission_content">任務內容</string>
+    <string name="mission_dotask">執行任務</string>
+    <string name="mission_cofirm_submit">確認送出</string>
+    <string name="mission_submit">完成送出</string>
+    <string name="mission_list_nomission">太厲害了...任務都被您解完了</string>
+    <string name="mission_deadline">截止日期</string>
+    <string name="mission_limit_member">剩餘名額</string>
+    <string name="mission_reward_point">獎勵點數</string>
+    <string name="mission_point_need">需要點數</string>
+    <string name="mission_point">點</string>
+    <string name="mission_result">任務結果</string>
+    <string name="mission_inreview">任務審核中</string>
+    <string name="mission_success">任務成功</string>
+    <string name="mission_fail">任務失敗</string>
+    <string name="mission_back_list">回任務列表</string>
+    <string name="mission_location_inside_des">已到達指定位置！</string>
+    <string name="mission_location_outside_des">目前不在任務指定位置附近，\n快前往執行任務吧！</string>
+    <string name="mission_location_unknow_des">暫時無法讀取您的位置！</string>
+    <string name="mission_location_loading_des">正在讀取您的位置！</string>
+    <string name="mission_location_distance">距離</string>
+    <string name="mission_location_distance_due">以下</string>
+    <string name="mission_location_howgo">如何前往</string>
+    <string name="mission_beacon_inside_des">已到達指定位置！</string>
+    <string name="mission_beacon_outside_des">您目前尚未到達任務指定位置。</string>
+    <string name="mission_beacon_unuse_des">您的裝置無法執行iBeacon任務，手機裝置必須是Android 4.3以上。</string>
+    <string name="mission_beacon_noble_des">您目前尚未打開藍芽功能，請打開藍芽功能，再重新進入任務內容。</string>
+    <string name="mission_beacon_ble">開啟藍芽</string>
+    <string name="mission_beacon_map">地圖</string>
+    <string name="mission_beacon_tip">請記得開啟藍芽服務，\n才能參與互動體驗喔！</string>
+    <string name="mission_beacon_cancel">略過</string>
+    <string name="mission_beacon_setting">立即設定</string>
+    <string name="mission_state_done">你已經執行過本任務，或是任務正在審核中！</string>
+
+    <!-- GT APP Mission Type -->
+    <string name="mission_type_101">下載app</string>
+    <string name="mission_type_2">fb貼文</string>
+    <string name="mission_type_301">fb打卡</string>
+    <string name="mission_type_4">粉絲團按讚</string>
+    <string name="mission_type_5">fb分享</string>
+    <string name="mission_type_6">fb文章按讚</string>
+    <string name="mission_type_701">分享影片</string>
+    <string name="mission_type_9">問劵</string>
+    <string name="mission_type_10">抽獎</string>
+    <string name="mission_type_10002">邀請您的親朋好友，一起解任務換贈品，邀請人數不限，愈多愈好！</string>
+    <string name="mission_type_10006">輸入其他「嘻街趣」會員給您的邀請碼，就可以獲得點數！</string>
+
+    <!-- GT APP Mission Des -->
+    <string name="mission_des_goal">任務目標</string>
+    <string name="mission_des_content">任務內容</string>
+    <string name="mission_des_reward">任務獎勵</string>
+    <string name="mission_des_invitecode">邀請碼：</string>
+    <string name="mission_des_invite_friend">請在這裡輸入親朋好友給您的邀請碼喔！</string>
+    <string name="mission_des_101">下載指定App並開啟。</string>
+    <string name="mission_des_2">發佈任務指定文章到您的facebook塗鴉牆。</string>
+    <string name="mission_des_301">在您的facebook塗鴉牆上傳指定位置的打卡。</string>
+    <string name="mission_des_4">在任務指定的粉絲團按讚。</string>
+    <string name="mission_des_5">分享任務指定文章到您的facebook塗鴉牆。</string>
+    <string name="mission_des_6">在任務指定的文章按讚。</string>
+    <string name="mission_des_701">看完任務指定的影片並分享。</string>
+    <string name="mission_des_9">回答任務指定的問卷。</string>
+    <string name="mission_des_10">參加任務指定的抽獎活動。</string>
+    <string name="mission_des_10002">透過「邀請碼」邀請您的好友一起加入Gt 4G 體驗任務，請朋友加入後，執行「歡迎受邀參加體驗任務」時，輸入您的邀請碼或掃描您的邀請碼QRcode！</string>
+    <string name="mission_des_10006">若您有朋友其他「嘻街趣」會員給您的邀請碼，只要於畫面上輸入或透過「條碼掃描器」掃描「邀請碼QRcode」，就可以獲得點數囉！</string>
+    <string name="mission_des_10010">註冊得點數</string>
+    <string name="mission_des_inreview">審核成功即可獲得獎勵，敬請耐心等待審核結果。</string>
+    <string name="mission_des_fail">未取得任務獎勵！要再加油喔！</string>
+
+    <!-- GT APP Mission Limit -->
+    <string name="mission_limit_without">不限名額</string>
+
+    <!-- GT APP Coupon -->
+    <string name="coupon_all">折扣劵速報</string>
+    <string name="coupon_save">我的折扣劵</string>
+    <string name="coupon_content">折扣劵內容</string>
+    <string name="coupon_tab_shop">適用門市</string>
+    <string name="coupon_tab_content">折扣劵內容</string>
+    <string name="coupon_tab_exchange">兌換方式</string>
+    <string name="coupon_limit">&lt;font color=\"#e4492f\">(限量)&lt;/font></string>
+    <string name="coupon_hint_title">提示訊息</string>
+    <string name="coupon_hint_content">在列表上向左滑動可以刪除您不要的折扣券訊息，您也可以在「設定」>「自動刪除已過期的折扣券」！</string>
+
+    <string-array name="coupon_hint">
+        <item>尚未接收到折扣劵訊息</item>
+        <item>尚未接收到折扣劵訊息</item>
+        <item>您目前還未領取折扣劵</item>
+    </string-array>
+
+    <string name="coupon_view_type">類　　型：</string>
+    <string name="coupon_view_price_sale">優惠價格：</string>
+    <string name="coupon_view_price_ticket">票券價值：</string>
+    <string name="coupon_view_time"> 領取時間：</string>
+
+    <!-- GT APP Exchange -->
+    <string name="exchange_content">商品介紹</string>
+    <string name="exchange_result">兌換完成</string>
+    <string name="exchange_back_list">回兌換牆</string>
+
+    <!-- GT APP Record -->
+    <string name="record_task_result">任務結果</string>
+    <string name="record_exchange_result">兌換內容</string>
+    <string name="record_tip_nomission">您還沒任何紀錄喔!</string>
+    <string name="record_tip_noexchange">再加油喔！很多禮物等你兌換！</string>
+
+    <!-- GT APP Member -->
+    <string name="member_didnt_login">尚未登入會員</string>
+    <string name="member_logout">登出</string>
+    <string name="member_logout_title">帳號登出</string>
+    <string name="member_logout_msg">你已經登出SmartId和Facebook。</string>
+    <string name="member_smartid_setting">設定Smart ID</string>
+    <string name="member_smartid_setting_tip">登入後，就可以在兌換牆換贈品！</string>
+    <string name="member_facebook_login">facebook登入</string>
+    <string name="member_facebook_login_tip">登入後，即可執行任務積點！</string>
+    <string name="member_smartid_edit_pw">修改密碼</string>
+    <string name="member_smartid_edit_profile">編輯會員資料</string>
+    <string name="member_login_fb_overdue_title">請重新登入Facebook</string>
+    <string name="member_login_fb_overdue_des">您登入已逾期，請回到會員中心，重新登入！</string>
+    <string name="member_login_fb_fail">暫時無法登入Facebook...請稍候再試...</string>
+
+    <!-- GT APP Wifi  -->
+    <string name="wifi_btn_connect">使用Gt體驗館Wifi</string>
+    <string name="wifi_btn_unconnect">結束Wifi連線</string>
+    <string name="wifi_state_off">未連線</string>
+    <string name="wifi_state_on">已連線至Gt</string>
+    <string name="wifi_des_title">歡迎來到三創Gt體驗館，\n感受Gt智慧生活帶給您的不同體驗。</string>
+    <string name="wifi_des_body">在Gt體驗館內，我們提供您使用免費Wifi上網功能，透過註冊SmartID後，我們將升級您的Wifi資格，享受更快速與不受限的網路體驗。現在就註冊並點選升級您的三創Wifi資格吧！</string>
+
+    <!-- GT APP Setting -->
+    <string name="setting_about">關於App</string>
+    <string name="setting_about_title">關於</string>
+    <string name="setting_auto_delete_coupon">自動刪除過期折扣劵</string>
+    <string name="setting_office_website">官方網站</string>
+
+    <!-- zc -->
+
+
+    <string name="reading">讀取中&#8230;</string>
+
+    <string name="gift_full_btn">已兌換完畢</string>
+    <string name="exchange_message_share_facebook">YA~~~累積點數這麼久，終於換到了，開心!!!!\n免錢的東西用起來感覺就是不一樣!!\n\n只要下載安裝然後輸入我的邀請碼，\n你也可以得到10點哦!!\n下載按這裡→ http://s.ad-locus.com/gt-redeem</string>
+
+    <!-- pushLocus -->
+    <string name="title_instruction">說　明</string>
+    <string name="title_about">關於DOIT</string>
+    <string name="title_event">活動主題</string>
+    <string name="event_tab_all">精選活動</string>
+    <string name="event_tab_save">我的收藏</string>
+    <string name="event_add_save">收藏活動</string>
+
+    <string-array name="event_hint">
+        <item>尚未接收到活動訊息</item>
+        <item>尚未接收到活動訊息</item>
+        <item>尚未收藏活動訊息</item>
+    </string-array>
+
+    <string name="push_notify_ad">活動速報</string>
+    <string name="push_notify_coupon">折扣券速報</string>
+    <string name="touch_again_to_close">再按一次返回鍵關閉</string>
+    <string name="barcode_light">亮度調整</string>
+    <string name="home_clear_data">清空活動/折扣券速報</string>
+    <string name="no_internet_cannot_setcat">網路無連線無法設定推播資訊</string>
+    <string name="no_internet_no_store_data">網路無連線無法取得適用店家詳細資料</string>
+    <string name="setting_delete">刪除資料</string>
+    <string name="setting_delete_push_ad">清空優惠速報</string>
+    <string name="setting_delete_push_notget">清空折扣券速報</string>
+    <string name="setting_sound_notification">推播資訊音效設定</string>
+    <string name="delete_success">刪除成功</string>
+    <string name="sound_a">開啟通知音效</string>
+    <string name="sound_b">關閉通知音效</string>
+    <string name="download_and_show">下載顯示活動圖片</string>
+    <string name="tab_ad">活動速報</string>
+    <string name="delete_space">刪　除</string>
+    <string name="download_waiting">下載中，請稍候...</string>
+    <string name="delete_fail">刪除失敗，請稍候再試。</string>
+    <string name="confirm_delete">是否確定要刪除？</string>
+    <string name="share_message">圖片尚未下載完成，請稍後再試</string>
+    <string name="share_message_1">已經成功分享至您的Facebook囉</string>
+    <string name="share_message_2">Facebook Error</string>
+    <string name="confirm_share">是否確定要分享到Facebook？</string>
+    <string name="uploading">上傳中，請稍候...</string>
+    <string name="barcode_tip">點選條碼可放大條碼圖案以利掃描</string>
+    <string name="coupon_type_a">本折扣劵為「&lt;font color=\"#00763e\">一般折扣劵&lt;/font>」。</string>
+    <string name="coupon_type_b">本折扣券為「&lt;font color=\"#00763e\">限量折扣券&lt;/font>」</string>
+    <string name="coupon_type_c">本折扣券為「&lt;font color=\"#00763e\">現場掃描折扣券&lt;/font>」</string>
+    <string name="coupon_text_1a">點下領取折扣券的按鈕，會出現一組優惠條碼，只需要在折扣券的有效期限內到店家使用即可。</string>
+    <string name="coupon_text_1b">點下領取限量折扣券的按鈕，會出現一組優惠條碼，強烈建議您迅速至店家使用，因本折扣券可能會有「優惠商品數量限制」或是「短期的優惠時間」。</string>
+    <string name="coupon_text_1c">需至現場點下領取現場掃描折扣券的按鈕，程式將自動開啟掃描，您只要將鏡頭對準店家提供的圖示進行掃描，就可以得到一組體驗條碼。</string>
+    <string name="coupon_text_2">兌換時，秀出折扣券條碼，供店員確認或掃描。</string>
+    <string name="coupon_text_3">兌換成功後，即可享用券上的優惠金額結帳！</string>
+    <string name="coupon_text_4">每張折扣劵都只能使用一次喔！</string>
+    <string name="coupon_text_5">點下參加兌換按鈕，會自動加入我的折扣劵唷!</string>
+    <string name="event_add_calendar">加入行事曆</string>
+    <string name="get_coupon_1">領取折扣券</string>
+    <string name="get_coupon_2">領取限量折扣券</string>
+    <string name="get_coupon_3">現場掃描領取</string>
+    <string name="coupon_content_title">內容</string>
+    <string name="tab_coupon_get">我的折扣券</string>
+    <string name="event_calendar_confirm">是否將本活動加入收藏？</string>
+    <string name="waiting">請稍候</string>
+    <string name="event_add_save_fail">收藏活動失敗</string>
+    <string name="event_add_save_success">收藏活動成功</string>
+    <string name="event_add_save_again">已經收藏本活動了</string>
+    <string name="get_coupon_ret_1">商品已售完</string>
+    <string name="get_coupon_ret_2">活動已過期</string>
+    <string name="get_coupon_ret_3">您已領取過此商品Coupon</string>
+    <string name="get_coupon_ret_4">活動尚未開始無法領取</string>
+    <string name="get_coupon_ret_255">此商品暫時無法購買</string>
+    <string name="event_calendar_title">2014國際青年共創日</string>
+    <string name="suit_store">適用店家</string>
+    <string name="exchange_des">使用方式</string>
+    <string name="confirm_get_coupon">是否確定要領取折扣券？</string>
+    <string name="get_coupon_fail">暫時無法取得資料</string>
+    <string name="get_coupon_success">折扣券領取成功！您可至『我的折扣券』查詢您的折扣券資料。</string>
+    <string name="get_coupon_again">已領取過此折扣券，無法重複領取。</string>
+    <string name="mycoupon_text_a">只需要在折扣券的有效期限內到店內結帳時，秀出折扣券的條碼，供店員掃描，確認兌換折扣券。兌換成功之後，即可以折扣券上的優惠金額結帳！</string>
+    <string name="mycoupon_text_b">強烈建議您迅速至店家使用，因本折扣券可能會有「優惠商品數量限制」或是「短期的優惠時間」。結帳時，秀出折扣券的條碼，供店員掃描，確兌換折扣券。兌換成功之後，即可以折扣券上的優惠金額結帳！</string>
+    <!-- 側選單 String -->
+    <string name="draw_login">會員登入</string>
+    <string name="draw_lsit">收藏清單</string>
+    <string name="draw_home">首頁</string>
+    <string name="draw_whos">投稿賺點數</string>
+    <string name="draw_oil">雲端油庫</string>
+    <string name="draw_task">解任務賺點數</string>
+    <string name="draw_group">紅利商品兌換區</string>
+    <string name="draw_record">活動歷史紀錄</string>
+    <string name="draw_about">聯絡我們</string>
+
+    <!-- Activity name -->
+    <string name="tittle_activity_index">愛車懶人包</string>
+    <string name="tittle_activity_login">會員</string>
+    <string name="tittle_activity_task">任務</string>
+    <string name="title_activity_oil">雲端油庫</string>
+    <string name="title_activity_about">聯絡我們</string>
+    <string name="title_activity_contribute">投稿賺點數</string>
+    <string name="title_activity_car">附近車服務</string>
+    <string name="title_activity_my_love_list">收藏清單</string>
+
+    <string name="my_location">我的位置</string>
+    <string name="my_location_2">〈精確到 %1$s 公尺〉</string>
+    <string name="about_des">MobileLocus Map 服務程式由 HyXen Technology 提供，服務程式相關問題，請逕洽 HyXen Technology。\nE-mail: support@hyxen.com</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="turn_on_gps">是否要開啟GPS以取得更精確的位置？</string>
+    <string name="turn_on_wifi">是否要開啟Wi-Fi以取得更精確的位置？</string>
+    <string name="menu_1">關於 MobileLocus Map</string>
+    <string name="about">關　於</string>
+    <string name="allow_get_location_title">授權</string>
+    <string name="allow_get_location">是否允取 MobileLocus Map 應用程式收集匿名資料？如果您未開啟 MobileLocus Map，即不會收集這些匿名資料。</string>
+    <string name="mobilelocus_des">MobileLocus 是勝義科技自行開發的一個混合式位置計算平臺，係整合 GPS 衛星信號特徵、蜂巢細胞基地台信號特徵和 WiFi AP 信號特徵，並以獨特專利的演算法來計算使用者的位置。</string>
+
+    <string name="icon_gas">加油站</string>
+    <string name="icon_parking">停車場</string>
+    <string name="icon_store">便利商店</string>
+    <string name="icon_bank">銀行</string>
+    <string name="icon_atm">自動提款機</string>
+    <string name="icon_hotel">住宿</string>
+    <string name="icon_hospital">醫療</string>
+    <string name="icon_car">汽車美容</string>
+
+    <string name="no_data">無資料</string>
+    <string name="title_activity_tms_poi_web">TmsPoiWeb</string>
+
+    <string name="title_activity_task_gift_check_dialog">TaskGiftCheckDialog</string>
+    <string name="title_activity_test_ad">TestAdActivity</string>
+
+
+    <!--    =============   UR  =============   -->
+
+    <!--    General    -->
+    <string name="ur_gen_person">人</string>
+    <string name="ur_gen_all">全部</string>
+    <string name="ur_gen_unit_point">點</string>
+    <string name="ur_gen_unit_unit">份</string>
+    <string name="ur_gen_present">目前：</string>
+
+    <string name="ur_gen_alert_connection_fail">請檢查網路連線</string>
+    <string name="ur_gen_alert_login_firest">請先登入</string>
+    <string name="ur_gen_alert_login_fail">登入過期，請重新登入</string>
+    <string name="ur_gen_alert_no_poi">暫時無此商店的資料</string>
+    <string name="ur_gen_notify_title">新優惠！</string>
+    <string name="ur_gen_alert_please_login">您尚未登入，請先登入後再進行收藏</string>
+    <string name="ur_gen_alert_please_wait">讀取資料中，請稍候...</string>
+    <string name="ur_gen_alert_to_be_continue">施工中！\n敬請期待！</string>
+    <string name="ur_gen_alert_loading">讀取中...</string>
+    <string name="ur_gen_alert_map_loading">取得地理位置中...</string>
+    <string name="ur_gen_alert_update_app">已有最新版本，請更新至最新版</string>
+    <string name="ur_gen_alert_share_text_copied">分享文字已複製到剪貼簿</string>
+
+    <!--    Drawer Menu -->
+    <string name="ur_menu_member">會員專區</string>
+    <string name="ur_menu_home">首頁</string>
+    <string name="ur_menu_member_card">會員卡</string>
+    <string name="ur_menu_news">玩樂通告</string>
+    <string name="ur_menu_task">任務活動</string>
+    <string name="ur_menu_bonus">紅利商品兌換</string>
+    <string name="ur_menu_record">紅利歷史紀錄</string>
+    <string name="ur_menu_about">關於嬉街趣</string>
+
+
+    <!--    Index Main Page -->
+    <string name="f_home_title">嬉街趣</string>
+    <string name="f_home_btn_store">嬉街</string>
+    <string name="f_home_btn_coupon">優惠好康</string>
+    <string name="f_home_btn_news">玩樂通告</string>
+    <string name="f_home_btn_member">會員專區</string>
+    <string name="f_home_btn_mission">任務活動</string>
+    <string name="f_home_btn_lottle">抽獎活動</string>
+    <string name="f_home_btn_life">生活地圖</string>
+
+
+    <!--    Coupon List Item    -->
+    <string name="ur_i_coupon_text_redeem_duration">領取期間：</string>
+    <string name="ur_f_coupon_text_all_got">已領取完畢</string>
+    <string name="ur_f_coupon_text_not_got">尚未領取任何優惠</string>
+    <string name="ur_f_coupon_text_store_has_no_coupon">此店家目前無發行優惠券</string>
+    <string name="ur_f_coupon_text_store_has_no_news">此分類尚無內容</string>
+
+    <!--    Coupon Type    -->
+    <string name="ur_f_coupon_type_title">優惠好康</string>
+    <string name="ur_f_coupon_type_text_not_get">未領取</string>
+    <string name="ur_f_coupon_type_text_got">我的優惠好康</string>
+    <string name="ur_f_coupon_type_btn_cate">選擇類別</string>
+
+
+    <!--    Coupon Detail    -->
+    <string name="ur_f_coupon_detail_title">優惠好康</string>
+    <string name="ur_f_coupon_detail_btn_func_draw">領取優惠好康</string>
+    <string name="ur_f_coupon_detail_btn_func_redeem">使用優惠好康</string>
+    <string name="ur_f_coupon_detail_btn_func_delete">查詢序號或刪除</string>
+    <string name="ur_f_coupon_detail_alert_get_OK">領取成功</string>
+    <string name="ur_f_coupon_detail_alert_coupon_not_exist">此優惠好康已下架</string>
+    <string name="ur_f_coupon_detail_alert_coupon_is_for_vip">連線逾時，本優惠券為VIP會員限定，若無加入亞太會員，請至亞太電信門市通路辦理，或再試一次</string>
+    <string name="ur_f_coupon_detail_alert_coupon_had_got">本月已領取過VIP優惠，請等下月再領取，謝謝</string>
+    <string name="ur_f_coupon_detail_alert_coupon_full">領取數量已達上限</string>
+    <string name="ur_f_coupon_detail_alert_delete">序號為：\n%s\n確定要刪除？</string>
+    <string name="ur_f_coupon_detail_alert_login_draw">先登入會員才能領取喔！</string>
+    <string name="ur_f_coupon_detail_alert_btn_login">立即登入</string>
+    <string name="ur_f_coupon_detail_alert_btn_not_yet">暫時不要</string>
+
+
+    <!--    Coupon Redeem    -->
+    <string name="ur_f_coupon_redeem_title">使用優惠好康</string>
+    <string name="ur_f_coupon_redeem_text_serial">優惠序號</string>
+    <string name="ur_f_coupon_redeem_text_serial_notice">提醒：點選後即無法再次兌換</string>
+    <string name="ur_f_coupon_redeem_text_show">請向結帳人員出示此畫面！</string>
+    <string name="ur_f_coupon_redeem_btn_confirm">確定使用</string>
+    <string name="ur_f_coupon_redeem_btn_no">暫不使用</string>
+    <string name="ur_f_coupon_redeem_alert_already_redeem">此券已兌換過\n優惠券序號%s</string>
+    <string name="ur_f_coupon_redeem_alert_redeem_success">使用成功：\n優惠券序號%s</string>
+
+    <!--    Poi Detail    -->
+    <string name="ur_f_poi_detail_title">商店資訊</string>
+    <string name="ur_f_poi_detail_btn_coupon">優惠好康</string>
+    <string name="ur_f_poi_detail_btn_news">玩樂通告</string>
+    <string name="ur_f_poi_detail_btn_favorite">加入最愛</string>
+    <string name="ur_f_poi_detail_btn_share">分享</string>
+
+    <string name="ur_f_poi_detail_share_text">快跟我一起用嬉街趣，優惠超多的拉!\nhttp://www.utobonus.com</string>
+
+    <string name="ur_f_poi_detail_alert_mark_ok">收藏成功</string>
+    <string name="ur_f_poi_detail_alert_canecel_mark_ok">取消收藏成功</string>
+    <string name="ur_f_poi_detail_alert_mark_fail">收藏失敗</string>
+    <string name="ur_f_poi_detail_alert_cancel_mark_fail">取消收藏失敗</string>
+
+    <string name="ur_f_poi_detail_alert_no_detail">此商店尚無商店資訊</string>
+
+    <!--    Poi Detail    -->
+    <string name="ur_f_ur_3d_map">3D地圖</string>
+    <string name="ur_f_ur_park_map">生活地圖</string>
+
+    <!--    Lotto    -->
+    <string name="ur_f_game_lotto_btn_go">開始抽獎</string>
+
+    <!--    Game Restul    -->
+    <string name="ur_f_game_title_success">任 務</string>
+
+    <!--    Game Restul    -->
+    <string name="ur_f_game_result_title_success">恭喜您！獲得任務獎勵！</string>
+    <string name="ur_f_game_result_titie_failed">哎呀！下次再努力！</string>
+    <string name="ur_f_game_result_title_tip_success">任務結果</string>
+    <string name="ur_f_game_result_title_tip_target">任務目標</string>
+    <string name="ur_f_game_result_title_tip_reward">任務獎勵</string>
+    <string name="ur_f_game_result_notice_success">恭喜中獎，獲得任務獎勵！</string>
+    <string name="ur_f_game_result_notice_failed">未中獎，下次再來。</string>
+    <string name="ur_f_game_result_reward_failed">銘謝惠顧。</string>
+    <string name="ur_f_game_result_reward_gain_point">獲得點數</string>
+    <string name="ur_f_game_result_available_point">目前可用點數：</string>
+
+    <string name="ur_f_game_result_btn_go_homePage">回首頁</string>
+
+
+    <!--    Reward Detail    -->
+    <string name="ur_f_reward_detail_hint_left">剩餘份數</string>
+    <string name="ur_f_reward_detail_hint_info">商品資訊</string>
+    <string name="ur_f_reward_detail_hint_note">注意事項</string>
+    <string name="ur_f_reward_detail_btn_redeem">我要兌換</string>
+
+
+    <!--    Reward Form    -->
+    <string name="ur_f_reward_form_title">兌換商品</string>
+    <string name="ur_f_reward_form_title_redeemAmount">兌換數量</string>
+    <string name="ur_f_reward_form_hint_requirePoint">需使用點數</string>
+    <string name="ur_f_reward_form_hint_receiverInfo">收件人資料</string>
+    <string name="ur_f_reward_form_btn_sameAsMember">同會員資料</string>
+    <string name="ur_f_reward_form_title_name">姓名：</string>
+    <string name="ur_f_reward_form_title_phone">電話：</string>
+    <string name="ur_f_reward_form_title_addr">地址：</string>
+    <string name="ur_f_reward_form_title_id">身分證字號：</string>
+    <string name="ur_f_reward_form_notice_law">當您整年度兌換的現金禮券(不含虛擬商品)超過一千元時，年底時本公司將依稅法規定，依照您在此留的資訊開立扣繳憑單。\n
+若您兌換的為虛擬商品時，本公司將依稅法開立支出證明，故因此需要您提供您的稅務ID</string>
+    <string name="ur_f_reward_form_alert_fill_all">請填寫完所有欄位</string>
+
+    <!--    Reward Form Check   -->
+    <string name="ur_f_reward_form_check_amount">兌換數量</string>
+    <string name="ur_f_reward_form_check_all_point">使用點數</string>
+    <string name="ur_f_reward_form_check_notice_confirm">我已確認以上資料正確無誤，同意贈品出貨後，無法退貨或更改收件訊息。</string>
+    <string name="ur_f_reward_form_check_notice_checkbox">請確認以上資料正確無誤</string>
+
+    <string name="ur_f_reward_form_check_result_amount">兌換數量：</string>
+    <string name="ur_f_reward_form_check_result_available">目前可用點數：</string>
+    <string name="ur_f_reward_form_check_result_notice">我們將以掛號信件寄出，敬請留意！</string>
+
+
+    <string name="ur_f_reward_form_check_result_text_titleFailReason">-兌換失敗原因-</string>
+
+    <!--    Record List   -->
+    <string name="ur_f_record_list_tab_record">累積紀錄</string>
+    <string name="ur_f_record_list_tab_recordRedeem">兌換紀錄</string>
+    <string name="ur_f_record_list_no_record">您還沒有任何記錄喔！</string>
+
+    <!--    Record Detail   -->
+    <string name="ur_f_record_detail_title">兌換明細</string>
+
+    <!--    Task Detail   -->
+    <string name="ur_f_task_detail_alert_forVip">本任務為VIP會員限定，若無加入亞太會員，請至亞太電信門市通路辦理，或再試一次</string>
+
+    <!--    First Notice   -->
+    <string name="ur_v_firstNotice_notice">歡迎來到嬉街趣，兩步驟快速註冊成為會員，立即索取免費優惠券！</string>
+    <string name="ur_v_firstNotice_noShow">下次不再顯示</string>
+    <string name="ur_v_firstNotice_no">暫時不要</string>
+    <string name="ur_v_firstNotice_goRegister">註冊去</string>
+    <string name="title_activity_coupon_store">CouponStoreActivity</string>
+    <string name="title_activity_coupo_store_list">適用店家</string>
+    <string name="title_activity_contact_customer_service">ContactCustomerService</string>
+
+</resources>

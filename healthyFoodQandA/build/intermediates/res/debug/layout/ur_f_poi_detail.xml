@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/NormalPageStyle"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:descendantFocusability="blocksDescendants">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.gtambit.gt.app.api.circleAD.AutoScrollViewPager
+                    android:id="@+id/ur_f_poi_detail_autoPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:flipInterval="30"
+                    android:persistentDrawingCache="animation"/>
+
+                <com.gtambit.gt.app.api.circleAD.CirclePageIndicator
+                    android:id="@+id/ur_f_poi_detail_pageIndicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    app:fillColor="#fff092"
+                    app:pageColor="#cc000000"
+                    app:strokeColor="#cc000000"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                style="@style/WMatchHWrap"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="4dp">
+
+                <ImageView
+                    android:id="@+id/ur_f_poi_detail_img_icon"
+                    android:layout_width="82dp"
+                    android:layout_height="82dp"
+                    android:layout_margin="4dp"
+                    android:padding="2dp"
+                    android:background="@drawable/box"/>
+
+                <LinearLayout
+                    style="@style/WFullHWrap"
+                    android:layout_margin="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ur_f_poi_detail_text_title"
+                        style="@style/TextBlackTitle20SP"
+                        android:textSize="18sp"
+                        android:text="咖啡店-敦化店"
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:id="@+id/ur_f_poi_detail_text_subtitle"
+                        style="@style/WHWrapContent"
+                        android:textSize="16sp"
+                        android:textColor="#313131"
+                        android:text="Coffe Ally"/>
+
+                    <TextView
+                        android:id="@+id/ur_f_poi_detail_text_tags"
+                        style="@style/TextBlackTitle20SP"
+                        android:textSize="14sp"
+                        android:textColor="#F9835E"
+                        android:text="輕食, 咖啡, 下午茶"/>
+
+                    <LinearLayout
+                        style="@style/WHWrapContent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/WHWrapContent"
+                            android:textSize="14sp"
+                            android:textColor="@color/subtitle_grey"
+                            android:text="共"/>
+
+                        <TextView
+                            android:id="@+id/ur_f_poi_detail_text_favoriteNum"
+                            style="@style/WHWrapContent"
+                            android:textSize="14sp"
+                            android:textColor="#19A8D1"
+                            android:text="12312"/>
+
+                        <TextView
+                            style="@style/WHWrapContent"
+                            android:textSize="14sp"
+                            android:textColor="#19A8D1"
+                            android:text="@string/ur_gen_person"/>
+
+                        <TextView
+                            style="@style/WHWrapContent"
+                            android:textSize="14sp"
+                            android:textColor="@color/subtitle_grey"
+                            android:text="加入最愛"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_grey"/>
+
+            <LinearLayout
+                style="@style/WMatchHWrap"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ur_f_poi_detail_btn_coupon"
+                    style="@style/WFullHWrap"
+                    android:layout_margin="8dp"
+                    android:drawableTop="@drawable/icon_coupon"
+                    android:background="@drawable/ur_s_poi_detail_icon_coupon_bk"
+                    android:text="@string/ur_f_poi_detail_btn_coupon"/>
+
+                <Button
+                    android:id="@+id/ur_f_poi_detail_btn_info"
+                    style="@style/WFullHWrap"
+                    android:layout_margin="8dp"
+                    android:drawableTop="@drawable/icon_information"
+                    android:background="@drawable/ur_s_poi_detail_icon_coupon_bk"
+                    android:text="@string/ur_f_poi_detail_btn_news"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/ur_f_poi_detail_btn_favo"
+                    style="@style/WFullHWrap"
+                    android:layout_margin="8dp"
+                    android:drawableTop="@drawable/icon_mylove_detach"
+                    android:background="@drawable/ur_s_poi_detail_icon_coupon_bk"
+                    android:text="@string/ur_f_poi_detail_btn_favorite"/>
+
+                <Button
+                    android:id="@+id/ur_f_poi_detail_btn_share"
+                    style="@style/WFullHWrap"
+                    android:layout_margin="8dp"
+                    android:drawableTop="@drawable/icon_share"
+                    android:background="@drawable/ur_s_poi_detail_icon_coupon_bk"
+                    android:text="@string/ur_f_poi_detail_btn_share"/>
+
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/ur_f_poi_detail_web"
+                android:layout_width="match_parent"
+                android:layout_height="750dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/ur_f_poi_detail.xml -->

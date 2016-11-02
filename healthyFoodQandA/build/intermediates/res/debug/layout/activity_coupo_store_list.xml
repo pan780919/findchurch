@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ur.ur_flow.coupon.CoupoStoreListActivity">
+<ListView
+    android:id="@+id/List_couponstore"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    ></ListView>
+</LinearLayout>
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/activity_coupo_store_list.xml -->

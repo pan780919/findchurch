@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        style="@style/GtTop"
+        android:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/ImageButtonBack"
+            style="@style/GtTopBack"/>
+
+        <Spinner
+            android:id="@+id/mySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:animationCache="true"
+            android:background="@drawable/hfilter_btn"
+            android:drawSelectorOnTop="true"
+            android:spinnerMode="dropdown"
+            />
+
+
+        <ImageButton
+            android:id="@+id/searchimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:src="@drawable/hbtn_search"
+            />
+
+        <RelativeLayout
+            android:id="@+id/select"
+            style="@style/GtTop"
+            android:padding="0dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/cancelimg"
+                android:layout_width="42dp"
+                android:layout_height="44dp"
+                android:background="@null"
+                android:src="@drawable/hbtncancel"
+                >
+
+            </ImageButton>
+
+            <EditText
+                android:id="@+id/inputedt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cancelimg"
+                android:layout_toLeftOf="@+id/ImageButtonSend"
+                android:background="@drawable/hsearchinput"
+                android:hint="請輸入關鍵字"
+                android:singleLine="true"
+                android:paddingLeft="16dp"
+
+                >
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/ImageButtonSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:src="@drawable/hbtn_search"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+<RelativeLayout
+    android:id="@+id/noKeyWordlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/tip_noinfo_search"
+
+        />
+    <TextView
+        android:id="@+id/sorrytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="很抱歉!"
+        android:textSize="30dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="150dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目前找不到您所搜尋的關鍵字相關文章,建議您換個關鍵字試試看。"
+        android:lines="3"
+        android:textSize="20dp"
+        android:paddingRight="70dp"
+        android:paddingLeft="70dp"
+
+
+        android:layout_marginTop="200dp"></TextView>
+
+
+</RelativeLayout>
+
+    <LinearLayout
+        style="@style/GtTab"
+        android:background="@drawable/tab_bg"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/ButtonShop"
+            style="@style/GtTabButtonClick"
+            android:text="@string/news_shop"/>
+
+        <Button
+            android:id="@+id/ButtonProduct"
+            style="@style/GtTabButtonDefault"
+            android:text="@string/news_product"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation">
+
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/PagerTitleStrip"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:background="@drawable/htab_btn_bclick"
+            ></android.support.v4.view.PagerTitleStrip>
+    </android.support.v4.view.ViewPager>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/ListViewProduct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000">
+        </ListView>
+
+        <ListView
+            android:id="@+id/ListViewShop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

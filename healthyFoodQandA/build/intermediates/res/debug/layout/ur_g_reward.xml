@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="156dp"
+    android:layout_height="186dp"
+    android:background="@drawable/ur_s_coupon_list_i_bk">
+
+    <LinearLayout
+        style="@style/WHMatchParent"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/ur_g_reward_img_icon"
+            android:layout_width="140dp"
+            android:layout_height="105dp"/>
+
+        <TextView
+            android:id="@+id/ur_g_reward_text_title"
+            style="@style/TextBlackTitle20SP"
+            android:layout_height="41dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="屋頂美式餐廳-"/>
+
+        <LinearLayout
+            style="@style/WHWrapContent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:id="@+id/ur_g_reward_text_point"
+                style="@style/TextOrangePoint20SP"
+                android:textSize="18sp"
+                android:text="100"/>
+
+            <TextView
+                style="@style/TextBlackSubtitle16SP"
+                android:text="@string/ur_gen_unit_point"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ur_g_reward_img_full"
+        style="@style/WHWrapContent"
+        android:src="@drawable/tag_full"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/ur_g_reward.xml -->

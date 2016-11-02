@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_Listitem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     android:background="@drawable/ur_s_list_bk"
+    >
+    <ImageView
+        android:id="@+id/ImageType"
+        android:layout_width="58dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/TextView_TaskName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:lines="2"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="8dp"
+            android:text="商品名稱"
+            android:textColor="@color/font"
+            android:textSize="16dp" />
+
+
+        <LinearLayout
+            android:id="@+id/Layout_Point"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_subtract"
+                android:layout_marginLeft="8dp"/>
+
+            <TextView
+                android:id="@+id/TextView_Point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_horizontal"
+                android:textColor="#f9835e"
+                android:text="10"
+                android:textSize="16dip" />
+
+            <TextView
+                android:layout_width="16dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="2dp"
+                android:text="@string/t_point"
+                android:textColor="#A1978D"
+                android:textSize="14dip" />
+
+            <View
+                android:layout_height="1dp"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/ToRecover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/tag_carry"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

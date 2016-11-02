@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.gtambit.gt.app.exchange.TaskGiftCheckDialog">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="285dp"
+        android:background="@drawable/gift_bg"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:id="@+id/TextView_down"
+            android:text="兌換成功"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/gift_title_down"
+            android:visibility="gone"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/TextView_fail"
+            android:text="兌換失敗"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/gift_title_fail"
+
+            ></TextView>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:lines="2"
+            android:text="11212121212"
+            android:textColor="#313131"
+            android:textSize="16dp"
+            android:id="@+id/TextView_GiftName"></TextView>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gift_tip"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="剩餘點數:"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#A1978D"
+                ></TextView>
+            <TextView
+                android:id="@+id/TextView_NowPoint"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="10000"
+                android:textColor="#BF6330"
+                ></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="點"
+                android:textColor="#A1978D"
+                ></TextView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Dialog_Button_ok"
+            android:layout_width="256dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn2_a"
+            android:text="確定"
+            android:textColor="@color/white"
+
+            ></Button>
+    </LinearLayout>
+
+
+</RelativeLayout>

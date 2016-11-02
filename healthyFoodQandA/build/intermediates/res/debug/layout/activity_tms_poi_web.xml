@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/LayoutMap"
+        android:layout_below="@+id/Top"
+        android:layout_height="166dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MapsActivity"/>
+
+        <ImageButton
+            android:id="@+id/googlebtn"
+            android:layout_height="38dp"
+            android:layout_width="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/mapbtnnavclick"
+
+            />
+
+    </RelativeLayout>
+
+
+    <WebView
+        android:layout_below="@+id/LayoutMap"
+        android:id="@+id/TmsWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        style="@style/GtTop">
+
+        <ImageButton
+            android:id="@+id/ImageButtonBack"
+            style="@style/GtTopBack"
+            />
+        <TextView
+            style="@style/GtIndex_TextView"
+            android:layout_centerInParent="true"
+            android:text="內容"/>
+
+        <ImageButton
+            android:id="@+id/ImageButtonHint"
+            style="@style/GtTopBack"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/hbtnfav"
+
+
+
+           />
+        <ImageButton
+            android:id="@+id/ImageButtonfav"
+            style="@style/GtTopBack"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/htbnfav"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/activity_tms_poi_web.xml -->

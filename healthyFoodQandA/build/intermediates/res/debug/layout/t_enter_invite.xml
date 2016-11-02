@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+
+    <LinearLayout
+        android:id="@+id/Title"
+        style="@style/GtTab"
+        android:layout_below="@+id/Top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/ImageView_TypeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_vip" />
+
+        <TextView
+            android:id="@+id/TextView_TaskName"
+            style="@style/Gt_TextView"
+            android:textColor="#313131" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Info"
+        style="@style/GtTab"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Title"
+        android:layout_marginTop="1dp"
+        android:background="@color/bk_yellow_deeper"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                style="@style/Gt_TextView"
+                android:text="@string/mission_deadline"
+                android:textColor="#8c8c8c"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/TextView_Deadline"
+                style="@style/Gt_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#313131" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                style="@style/Gt_TextView"
+                android:text="@string/mission_limit_member"
+                android:textColor="#8c8c8c"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/TextView_LimitMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="#313131"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                style="@style/Gt_TextView"
+                android:text="@string/mission_reward_point"
+                android:textColor="#8c8c8c"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TextView_TaskPoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="#313131"
+                    android:textSize="20dp"
+                    android:layout_weight="3"></TextView>
+
+                <TextView
+                    style="@style/Gt_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mission_point"
+                    android:layout_weight="7"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/Bottom"
+        android:layout_below="@+id/Info"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/WHWrapContent"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    style="@style/WHWrapContent"
+                    android:src="@drawable/block"/>
+
+                <TextView
+                    android:id="@+id/ur_f_game_result_text_noticeText"
+                    style="@style/WHWrapContent"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/text_brown"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:text="@string/mission_des_goal"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:padding="10dp"
+                android:text="@string/mission_type_10006"
+                android:textColor="@color/font"
+                android:textSize="16dip" />
+
+            <LinearLayout
+                style="@style/WHWrapContent"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    style="@style/WHWrapContent"
+                    android:src="@drawable/block"/>
+
+                <TextView
+                    android:id="@+id/ur_f_game_result_text_noticeText"
+                    style="@style/WHWrapContent"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/text_brown"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:text="@string/mission_des_content"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/mission_des_10006"
+                android:textColor="@color/font"
+                android:textSize="16dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:text="@string/mission_des_invitecode"
+                android:textColor="@color/font_dark"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/EditText_InviteCode"
+                android:layout_width="fill_parent"
+                android:layout_height="24dp"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/ur_list3"
+                android:singleLine="true"
+                android:textColor="@color/font"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="5dip"
+                android:text="@string/mission_des_invite_friend"
+                android:textColor="@color/font_dark"
+                android:textSize="16dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="5dip"
+                android:text="or"
+                android:textColor="@color/font_dark"
+                android:textSize="16dip" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/ImageView_Bear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/Button_QrCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/gt_button4_default"
+                        android:paddingLeft="30dip"
+                        android:paddingRight="30dip"
+                        android:shadowColor="#99000000"
+                        android:shadowDx="0"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="@string/t_ignore_open_scan"
+                        android:textColor="#ffffffff"
+                        android:textSize="16dip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/t_invite_scan_1"
+                        android:textColor="@color/font_dark"
+                        android:textSize="16dip" />
+
+                    <ImageView
+                        android:id="@+id/ImgaeViewInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/step2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="@string/t_invite_scan_2"
+                        android:textColor="#ff9e9980"
+                        android:textSize="12dip"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/Bottom"
+        android:background="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/Button_Ignore"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="2dip"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/ur_s_btn_long_bk"
+            android:text="@string/t_ignore_step"
+            android:textColor="#ffffffff"
+            android:textSize="18dip"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/Button_Send"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_margin="8dp"
+            android:background="@drawable/ur_s_btn_long_bk"
+            android:text="@string/t_send_invite"
+            android:textColor="#ffffffff"
+            android:textSize="18dip" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/t_enter_invite.xml -->

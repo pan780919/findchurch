@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TextView_NewTask"
+    android:layout_width="fill_parent"
+    android:layout_height="22dp"
+    android:background="#33313131"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dip"
+    android:text="@string/t_new_task"
+    android:textColor="#787878"
+    android:textSize="14dip" />
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/t_task_listitem_2.xml -->

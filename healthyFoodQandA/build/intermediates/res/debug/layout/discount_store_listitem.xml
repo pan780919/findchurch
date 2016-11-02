@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_StoreList"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/gt_list_store"
+    android:padding="6dp" >
+
+    <ImageView
+        android:id="@+id/ImageView_StorePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dip"
+        android:duplicateParentState="true"
+        android:visibility="gone" >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="45dp"
+        android:duplicateParentState="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView_StoreName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:text="StoreName"
+            android:textColor="@color/font"
+            android:textSize="18dip" />
+
+        <TextView
+            android:id="@+id/TextView_Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:text="Address"
+            android:textColor="@color/font_dark"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/TextView_Phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:text="Phone"
+            android:textColor="@color/font_dark"
+            android:textSize="16dip" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/discount_store_listitem.xml -->

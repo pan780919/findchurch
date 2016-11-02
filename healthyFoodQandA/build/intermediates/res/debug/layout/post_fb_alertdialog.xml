@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        style="@style/GtTop"
+        android:background="@color/bk_orange">
+
+        <ImageButton
+            android:id="@+id/ImageButtonBack"
+            style="@style/GtTopBack"
+            android:focusable="true"
+            />
+
+        <TextView
+            style="@style/GtIndex_TextView"
+            android:layout_centerInParent="true"
+            android:text="執行任務"/>
+
+        <ImageButton
+            android:id="@+id/ImageButtonHint"
+            style="@style/GtTopBack"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/gt_button_i"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/button"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/stitle_icon"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dip"
+                    android:text="步驟一"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dip"
+                    android:textColor="#313131"
+                    android:text="請按「複製」按鈕,複製下列文字訊息"/>
+
+                <TextView
+                    android:id="@+id/post_fb_edt"
+                    android:layout_width="288dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ur_list3"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/copy_btn"
+                    android:layout_width="140dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/btn_share"
+                    android:text="複製預設訊息"
+                    android:textColor="#ffffff"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/button"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/stitle_icon"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="7dip"
+                        android:text="步驟二"/>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dip"
+                    android:text="按下分享後,再如下圖的畫面上,將剛剛複製的訊息貼在紅框處後,按下分享連結"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/post_fb_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fb"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dip"
+                android:text="注意事項\n．請確保登入的fb帳號與本App連結的fb帳號相同\n．必須將預設的訊息完整分享才算合格\n．分享的訊息需維持「公開」的狀態"
+                android:textColor="#2c2c2c"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/post_fb_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dip"
+        android:background="@color/bk_orange"
+        android:text="分享"
+        android:textSize="18sp"
+        android:textColor="#ffffffff"/>
+</LinearLayout>
+
+
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/post_fb_alertdialog.xml -->

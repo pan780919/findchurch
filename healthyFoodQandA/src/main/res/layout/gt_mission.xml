@@ -1,0 +1,149 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f6f4e9">
+
+        <!-- Main layout -->
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+            <ListView
+                android:id="@+id/ListView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/RelativeLayout_Bottom"
+                android:layout_below="@+id/Top"
+                android:layout_weight="1.0"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000" >
+            </ListView>
+            <ImageView
+                android:id="@+id/ImageView_Bear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp"
+                android:layout_above="@+id/TextView_NoMission"
+                android:src="@drawable/list_tip_nomission"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/TextView_NoMission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:drawablePadding="4dp"
+                android:text="哇！好厲害！"
+                android:textColor="#553D3B"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/TextView_NoMission2"
+                android:layout_below="@+id/TextView_NoMission"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:drawablePadding="4dp"
+                android:text="任務都完成了，明天再來看看！"
+                android:textColor="#553D3B"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"/>
+            <LinearLayout
+                android:id="@id/RelativeLayout_Bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:weightSum="2" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip" >
+
+                        <ImageView
+                            android:id="@+id/ImageView_MyPicture"
+                            android:layout_width="30dip"
+                            android:layout_height="30dip"
+                            android:src="@drawable/user_default" />
+
+                        <ImageView
+                            android:layout_width="30dip"
+                            android:layout_height="30dip"
+                            android:background="@drawable/user_default" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/TextView_MyName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:textColor="#ffeaefc1"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end"
+                    android:orientation="horizontal"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="目前有"
+                        android:textColor="#ffeaefc1"
+                        android:textSize="14dip" />
+
+                    <TextView
+                        android:id="@+id/TextView_MyPoint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:textColor="#ffffffff"
+                        android:textSize="20dip"
+                        android:text="0"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/t_point"
+                        android:textColor="#ffeaefc1"
+                        android:textSize="14dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- Nav drawer -->
+        <include
+            android:id="@+id/drawer_listview"
+            layout="@layout/ur_list_drawer_listview" />
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

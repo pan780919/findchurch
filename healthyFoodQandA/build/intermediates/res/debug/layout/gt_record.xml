@@ -1,0 +1,292 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main layout -->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/bk_yellow" >
+
+            <RelativeLayout
+                android:id="@+id/Top"
+                style="@style/GtTop"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/ImageButtonBack"
+                    style="@style/GtTopBack" />
+
+                <TextView
+                    android:id="@+id/TextViewRecord"
+                    style="@style/GtIndex_TextView"
+                    android:layout_centerInParent="true"
+                    android:text="@string/index_record" />
+            </RelativeLayout>
+
+                <!-- H 102 -->
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout_MyInfo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:background="#6D5442">
+
+                    <ImageView
+                        android:id="@+id/ImageView_MyPicture"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:scaleType="centerCrop"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/user_default"
+                       />
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/huserphoto"
+                      />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_toRightOf="@id/ImageView_MyPicture"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/TextView_MyName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="User"
+                            android:textColor="@color/white"
+                            android:textSize="20dip" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dip"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/t_now_point"
+                                android:textColor="#cacaca"
+                                android:textSize="16dip" />
+
+                            <TextView
+                                android:id="@+id/TextView_NowPoint"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" - "
+                                android:textColor="@color/white"
+                                android:textSize="18dip" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dip"
+                                android:text="@string/t_point"
+                                android:textColor="#cacaca"
+                                android:textSize="16dip" />
+                        </LinearLayout>
+
+                        <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="horizontal" >-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="於"-->
+                            <!--android:textColor="#cacaca"-->
+                            <!--android:textSize="16dip" />-->
+                        <!--<TextView-->
+                            <!--android:id="@+id/myboundata"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textColor="@color/text_gold"-->
+                            <!--android:textSize="16dip"-->
+                            <!--android:text=" - "/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="到期點數"-->
+                            <!--android:textColor="#cacaca"-->
+                            <!--android:textSize="16dip" />-->
+                        <!--<TextView-->
+                            <!--android:id="@+id/TextView_dataPoint"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="4dp"-->
+                            <!--android:text=" - "-->
+                            <!--android:textColor="@color/text_gold"-->
+                            <!--android:textSize="18dip" />-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="5dip"-->
+                            <!--android:text="@string/t_point"-->
+                            <!--android:textColor="#cacaca"-->
+                            <!--android:textSize="16dip" />-->
+                    <!--</LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/t_total_point"
+                            android:textColor="#cacaca"
+                            android:textSize="12dip" />
+
+                        <TextView
+                            android:id="@+id/TextView_TotalPoint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dip"
+                            android:text=" - "
+                            android:textColor="#cacaca"
+                            android:textSize="12dip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dip"
+                            android:text="@string/t_point"
+                            android:textColor="#cacaca"
+                            android:textSize="12dip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dip"
+                            android:text="|"
+                            android:textColor="#cacaca"
+                            android:textSize="12dip"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/t_total_exchange_point"
+                            android:textColor="#cacaca"
+                            android:textSize="12dip"
+                            android:layout_marginLeft="4dip"
+                      />
+
+                        <TextView
+                            android:id="@+id/TextView_TotalExchangePoint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dip"
+                            android:text=" - "
+                            android:textColor="#cacaca"
+                            android:textSize="12dip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dip"
+                            android:text="@string/t_point"
+                            android:textColor="#cacaca"
+                            android:textSize="12dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+            <ImageView
+                android:id="@+id/ImageView_Bear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout_TabButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dip"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/TextViewTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ImageView_Bear"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dip"
+                android:gravity="center_vertical"
+                android:drawablePadding="4dp"
+                android:textColor="#553D3B"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <ur.ui_component.URTabPageIndicator
+                android:id="@+id/ur_f_record_list_pageIndicator"
+                style="@style/WMatchHWrap"
+                android:layout_below="@id/RelativeLayout_MyInfo"
+                app:tab1Title="@string/ur_f_record_list_tab_record"
+                app:tab2Title="@string/ur_f_record_list_tab_recordRedeem"/>
+
+
+            <ListView
+                android:id="@+id/ListView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/ur_f_record_list_pageIndicator"
+                android:layout_marginTop="-3dip"
+                android:background="@color/bk_yellow"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"/>
+
+            <LinearLayout
+                android:id="@+id/ur_f_record_list_layout_noRecord"
+                style="@style/WHWrapContent"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="64dp"
+                android:layout_below="@id/RelativeLayout_MyInfo"
+                android:gravity="center_horizontal"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:id="@+id/ur_f_record_list_img_noRecord"
+                    style="@style/WHWrapContent"
+                    android:src="@drawable/icon_remind"/>
+
+                <TextView
+                    style="@style/TextBrownTitle18SP"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/ur_f_record_list_no_record"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- Nav drawer -->
+        <include
+            android:id="@+id/drawer_listview"
+            layout="@layout/ur_list_drawer_listview" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/gt_record.xml -->

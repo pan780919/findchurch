@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+
+    <LinearLayout
+        android:id="@+id/Title"
+        style="@style/GtTab"
+        android:background="@android:color/white"
+        android:layout_below="@+id/Top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/ImageView_TypeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_m_default" />
+
+        <TextView
+            android:id="@+id/TextView_TaskName"
+            style="@style/Gt_TextView" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Info"
+        style="@style/GtTab"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Title"
+        android:layout_marginTop="1dp"
+        android:background="@color/bk_yellow_deeper"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                style="@style/Gt_TextView"
+                android:text="@string/mission_deadline"
+                android:textColor="@color/font_dark"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/TextView_Deadline"
+                style="@style/Gt_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                style="@style/Gt_TextView"
+                android:text="@string/mission_limit_member"
+                android:textColor="@color/font_dark"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/TextView_LimitMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="#A1978D"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                style="@style/Gt_TextView"
+                android:text="@string/mission_reward_point"
+                android:textColor="@color/font_dark"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/TextView_TaskPoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="#BF6330"
+                    android:textSize="20dp"
+                    android:layout_weight="3"></TextView>
+
+                <TextView
+                    style="@style/Gt_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mission_point"
+                    android:layout_weight="7"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Info"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/task_des"
+                    android:textColor="#ffada68b"
+                    android:textSize="15dip" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                 >
+
+                    <TextView
+                        android:id="@+id/button"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/stitle_icon"
+                        android:textColor="#ffffff"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dip"
+                        android:textColor="#A7823E"
+                        android:text="任務目標"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/TextView_TaskType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/mission_type_10002"
+                    android:textColor="@color/font"
+                    android:textSize="16dip" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/button"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/stitle_icon"
+                        android:textColor="#ffffff"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="7dip"
+                        android:textColor="#A7823E"
+                        android:text="任務內容"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/TextView_TaskDes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/mission_des_10002"
+                    android:textColor="@color/font"
+                    android:textSize="16dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip"
+                android:background="@drawable/qrcodebg"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_toLeftOf="@+id/Button_CopyInviteCode"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/t_your_invite_code"
+                            android:textColor="#787878"
+                            android:layout_marginRight="5dip"
+                            android:textSize="14dip" />
+
+                        <TextView
+                            android:id="@+id/TextView_InviteCode"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="bottom"
+                            android:textColor="#BF6330"
+                            android:textIsSelectable="true"
+                            android:textSize="20dip"
+                            android:text="ABCDEGG"/>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@id/Button_CopyInviteCode"
+                        android:layout_width="64dp"
+                        android:layout_height="34dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@drawable/gt_button4_default"
+                        android:shadowColor="#99000000"
+                        android:shadowDx="0"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="@string/t_copy"
+                        android:textColor="#ffffffff"
+                        android:textSize="14dip" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginTop="5dip"
+                    android:background="#cacaca" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/t_invite_scandes"
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dip" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dip" >
+
+                    <ImageView
+                        android:id="@+id/ImageView_QrcodePicture"
+                        android:layout_width="240dip"
+                        android:layout_height="240dip" />
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/qrcode_userbord"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="10dip"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/Button_InviteFB"
+                    android:layout_width="0dip"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="3dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/ur_s_btn_long_bk"
+                    android:text="@string/t_invite_des_fb"
+                    android:textColor="#ffffffff"
+                    android:textSize="16dip" />
+
+                <Button
+                    android:id="@+id/Button_Invite"
+                    android:layout_width="0dip"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/ur_s_btn_long_bk"
+                    android:text="@string/t_invite_des"
+                    android:textColor="#ffffffff"
+                    android:textSize="16dip" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:visibility="gone"
+                android:text="@string/task_des_invite_2"
+                android:textColor="#ff3d2b28"
+                android:textSize="18dip" />
+
+            <ImageView
+                android:id="@+id/ImageViewStep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dip"
+                android:src="@drawable/mission_step_invite" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

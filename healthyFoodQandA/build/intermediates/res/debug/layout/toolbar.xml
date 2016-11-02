@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/bk_orange"
+    android:minHeight="56dp"
+    android:navigationIcon="@drawable/hbtn_menu"
+    app:theme="@style/TmsToolber">
+
+    <View
+        android:id="@+id/toolbar_paddingView"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/toolbar_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff">
+        </TextView>
+
+        <TextView
+            android:id="@+id/toolbar_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+            android:text="咖啡弄-敦化店"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>
+
+
+
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/toolbar.xml -->

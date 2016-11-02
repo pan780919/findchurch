@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/Title"
+        style="@style/GtTab"
+        android:background="@android:color/white"
+        android:layout_below="@+id/Top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/ImageView_TypeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_m_download"/>
+
+        <TextView
+            android:id="@+id/TextView_TaskName"
+            style="@style/Gt_TextView"
+            android:textStyle="bold"
+            android:text=""
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ur_task_detail_img_vip"
+        style="@style/WMatchHWrap"
+        android:background="@drawable/tag_vip_content"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/Info"
+        style="@style/GtTab"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Title"
+        android:layout_marginTop="1dp"
+        android:background="@color/bk_yellow_deeper"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:gravity="center"
+                style="@style/Gt_TextView"
+                android:text="@string/mission_deadline"
+                android:textColor="@color/font_dark"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/TextView_Deadline"
+                style="@style/Gt_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                style="@style/Gt_TextView"
+                android:text="@string/mission_limit_member"
+                android:gravity="center"
+                android:textColor="@color/font_dark"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+    <TextView
+        android:id="@+id/TextView_LimitMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/subtitle_grey"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="0"></TextView>
+    <TextView
+        android:id="@+id/peopletext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#A1978D"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:text="位"></TextView>
+</LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                style="@style/Gt_TextView"
+                android:text="@string/mission_reward_point"
+                android:gravity="center"
+                android:textColor="@color/font_dark"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+                    <TextView
+                        android:id="@+id/TextView_TaskPoint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/bk_orange"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="0"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#A1978D"
+                        android:textSize="16dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:text="點"></TextView>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/LayoutLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Info"
+        android:background="@color/background_task"
+        android:padding="4dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/LayoutLatlon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/LatlonLoad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/background_task"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/mission_location_loading_des"
+                    android:textColor="@color/font_green"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/LatlonOutsite"
+                style="@style/GtTab"
+                android:layout_centerInParent="true"
+                android:background="@color/background_task"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="4dp"
+                    android:layout_toLeftOf="@+id/ButtonHowGo"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/mission_location_distance"
+                            android:textColor="@color/font_green"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:id="@+id/TextViewDistanceMile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:textColor="@color/font_green"
+                            android:textSize="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/mission_location_distance_due"
+                            android:textColor="@color/font_green"
+                            android:textSize="12dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/mission_location_outside_des"
+                        android:textColor="@color/font"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/ButtonHowGo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gt_button4_default"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/mission_location_howgo"
+                    android:textColor="@color/font_white"
+                    android:textSize="14dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/LatlonInsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/background_task"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/mission_location_inside_des"
+                    android:textColor="@color/font_green"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/LatlonUnknow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/background_task"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/mission_location_unknow_des"
+                    android:textColor="@color/font_green"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/LayoutBeacon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:id="@+id/BeaconUnuse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/background_task"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/mission_beacon_unuse_des"
+                    android:textColor="@color/font_green"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/BeaconNoble"
+                style="@style/GtTab"
+                android:layout_centerInParent="true"
+                android:background="@color/background_task"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="4dp"
+                    android:layout_toLeftOf="@+id/ButtonOpenBle"
+                    android:gravity="center_vertical"
+                    android:text="@string/mission_beacon_noble_des"
+                    android:textColor="@color/font"
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:id="@+id/ButtonOpenBle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gt_button4_default"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/mission_beacon_ble"
+                    android:textColor="@color/font_white"
+                    android:textSize="14dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/BeaconOutside"
+                style="@style/GtTab"
+                android:layout_centerInParent="true"
+                android:background="@color/background_task"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="4dp"
+                    android:layout_toLeftOf="@+id/ButtonBeaconMap"
+                    android:gravity="center_vertical"
+                    android:text="@string/mission_beacon_outside_des"
+                    android:textColor="@color/font"
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:id="@+id/ButtonBeaconMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gt_button4_default"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/mission_location_howgo"
+                    android:textColor="@color/font_white"
+                    android:textSize="14dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/BeaconInside"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/background_task"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/mission_beacon_inside_des"
+                    android:textColor="@color/font_green"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout_Content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/RelativeLayout_Bottom"
+        android:layout_below="@+id/LayoutLocation"
+        android:visibility="visible">
+
+        <WebView
+            android:id="@+id/WebView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"/>
+
+        <ProgressBar
+            android:id="@+id/ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/RelativeLayout_Bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/Button_DoTask"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/ur_s_btn_long_bk"
+            android:text="@string/t_do_task"
+            android:textColor="@color/font_white"
+            android:textSize="20dip"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/Button_notDoTask"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_dissable"
+            android:text="@string/t_do_task"
+            android:textColor="@color/font_white"
+            android:textSize="20dip"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/Button_DoTaskStep2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn1bclick"
+            android:text="@string/t_do_task_step2"
+            android:textColor="@color/font_white"
+            android:textSize="20dip"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/Button_RedoTask"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn1bclick"
+            android:text="@string/t_redo_task"
+            android:textColor="@color/font_white"
+            android:textSize="20dip"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ImageView_Full"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Top"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="60dip"
+        android:visibility="gone"/>
+
+</RelativeLayout>

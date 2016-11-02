@@ -1,0 +1,150 @@
+<LinearLayout
+    android:id="@+id/main_parent_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main layout -->
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/RelativeLayout_Bottom"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ur_f_ex_list_btn_cate"
+                    style="@style/WMatchHWrap"
+                    android:gravity="start|center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/ur_s_btn_cate_bk"
+                    android:drawableRight="@drawable/icon_unfold"
+                    android:textSize="18sp"
+                    android:text="@string/ur_f_coupon_type_btn_cate"/>
+
+                <RelativeLayout
+                    style="@style/WMatchHFull">
+
+                    <GridView
+                        android:id="@+id/GridView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:numColumns="2"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="4dip"/>
+
+                    <ListView
+                        android:id="@+id/ur_f_ex_list_catelist"
+                        style="@style/WHMatchParent"
+                        android:divider="@color/divider_grey"
+                        android:dividerHeight="1dp"
+                        android:background="@android:color/white"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/RelativeLayout_Bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip">
+
+                        <ImageView
+                            android:id="@+id/ImageView_MyPicture"
+                            android:layout_width="30dip"
+                            android:layout_height="30dip"
+                            android:src="@drawable/user_default"/>
+
+                        <ImageView
+                            android:layout_width="30dip"
+                            android:layout_height="30dip"
+                            android:background="@drawable/user_default"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/TextView_MyName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:textColor="#ffeaefc1"
+                        android:textSize="18dip"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end"
+                    android:orientation="horizontal"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="目前"
+                        android:textColor="#ffeaefc1"
+                        android:textSize="14dip"/>
+
+                    <TextView
+                        android:id="@+id/TextView_MyPoint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:textColor="#ffffffff"
+                        android:text="100"
+                        android:textSize="20dip"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/t_point"
+                        android:textColor="#ffeaefc1"
+                        android:textSize="14dip"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <!-- Nav drawer -->
+        <include
+            android:id="@+id/drawer_listview"
+            layout="@layout/ur_list_drawer_listview" />
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/gt_exchange.xml -->

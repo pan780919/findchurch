@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        style="@style/GtTop" >
+
+        <ImageButton
+            android:id="@+id/ImageButton_Back"
+            style="@style/GtTopBack" />
+
+        <TextView
+            android:id="@+id/TextView_StoreName"
+            style="@style/GtIndex_TextView"
+            android:layout_centerInParent="true"
+            android:text="@string/coupon_content" />
+
+        <ImageButton
+            android:id="@+id/Button_Share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#00000000"
+            android:src="@null"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Top" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView_ActiveName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="6"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:lineSpacingExtra="4dp"
+                android:maxLines="3"
+                android:text="activeName"
+                android:textColor="@color/font"
+                android:textSize="21dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/coupon_view_type"
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView_Type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/coupon_view_price_sale"
+                        android:textColor="@color/font_green"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TextView_DiscountPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$800"
+                        android:textColor="@color/font_green"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:text="|"
+                        android:textColor="@color/gray"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text="@string/coupon_view_price_ticket"
+                        android:textColor="@color/font_dark"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/TextView_OriginalPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$1000"
+                        android:textColor="@color/font_dark"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView_TimeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/coupon_view_time"
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView_GetCouponTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnSpan="4"
+                    android:text=""
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:columnCount="6"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:visibility="gone"
+            tools:ignore="MissingPrefix" >
+
+            <TextView
+                android:id="@+id/TextView_AmountCoupon0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="|"
+                android:textColor="@color/gray"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/TextView_AmountCouponTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="剩餘數量："
+                android:textColor="@color/brown_gold"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/TextView_AmountCoupon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textColor="@color/brown_gold"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.GridLayout>
+
+        <ImageView
+            android:id="@+id/ImageView_Postmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_Tabs"
+        style="@style/GtTab"
+        android:layout_below="@id/RelativeLayout_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" >
+
+        <Button
+            android:id="@+id/Button_Tab1"
+            style="@style/GtTabButtonClick"
+            android:clickable="true"
+            android:text="@string/coupon_tab_shop" />
+
+        <View style="@style/GtTabLine" />
+
+        <Button
+            android:id="@+id/Button_Tab2"
+            style="@style/GtTabButtonDefault"
+            android:clickable="true"
+            android:text="@string/coupon_tab_content" />
+
+        <View style="@style/GtTabLine" />
+
+        <Button
+            android:id="@+id/Button_Tab3"
+            style="@style/GtTabButtonDefault"
+            android:clickable="true"
+            android:text="@string/coupon_tab_exchange" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/Bottom"
+        android:layout_below="@id/LinearLayout_Tabs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/Bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff" >
+
+        <Button
+            android:id="@+id/Button_GetCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/gt_button1_default"
+            android:text="@string/get_coupon_1"
+            android:textColor="@color/font_white"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/discount_content.xml -->

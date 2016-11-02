@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/ur_f_game_lotto_webview"
+        style="@style/WMatchHFull"/>
+
+    <Button
+        android:id="@+id/ur_f_game_lotto_btn_go"
+        style="@style/FullWidthButton"
+        android:text="@string/ur_f_game_lotto_btn_go"/>
+
+</LinearLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/ur_f_game_lotto.xml -->

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/LayoutItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f3f3f3">
+
+
+    <LinearLayout
+        android:id="@+id/LayoutFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/list_b_click"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="126dp"
+            android:layout_height="84dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/news_photo">
+
+            <ImageView
+                android:id="@+id/ImageViewPicture"
+                android:layout_width="126dp"
+                android:layout_height="84dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/news_default"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:id="@+id/ImageViewIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ImageViewPicture"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/TextViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lines="2"
+                android:text="Title"
+                android:textColor="@color/font"
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:id="@+id/TextViewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:duplicateParentState="true"
+                android:text="Category"
+                android:lines="2"
+                android:textColor="@color/font_dark"
+                android:textSize="14dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/TextViewTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:duplicateParentState="true"
+                    android:text="Time"
+                    android:textColor="@color/font_dark"
+                    android:textSize="11dp"
+                    />
+
+                <TextView
+                    android:id="@+id/TextViewViews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@drawable/icon_views"
+                    android:drawablePadding="4dp"
+                    android:duplicateParentState="true"
+                    android:text="0"
+                    android:textColor="@color/font_dark"
+                    android:textSize="11dp"
+                    android:paddingLeft="8dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/list_b_click"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/TextViewTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Title"
+                android:paddingLeft="12dp"
+                android:paddingRight="24dp"
+                android:textColor="@color/font"
+                android:textSize="20dp"
+                android:layout_marginTop="8dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                >
+
+                <TextView
+                    android:id="@+id/TextViewTimeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Time"
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dp"
+                    android:paddingLeft="12dp"
+                    />
+                <TextView
+                    android:id="@+id/TextViewCategoryText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:drawableRight="@drawable/list_line"
+                    android:text="Category"
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dp"
+                    android:paddingLeft="12dp"
+                    />
+                <TextView
+                    android:id="@+id/TextViewViewsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_views"
+                    android:duplicateParentState="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:drawablePadding="4dp"
+                    android:text="0"
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dp"
+                    android:paddingLeft="8dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/gt_news_listitem_feed.xml -->

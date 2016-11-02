@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity"/>
+
+    <Gallery
+        android:id="@+id/Gallery_Button"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#88000000"
+        android:spacing="0dip"
+        android:unselectedAlpha="0.5"
+        android:visibility="gone">
+    </Gallery>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="56dp"
+        android:orientation="horizontal"
+        android:spacing="0dip"
+        android:unselectedAlpha="0.5"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/layout_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/htab_btn_bclick">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/htab_icon_all"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="全部"
+                android:textColor="#FFFFFF"></TextView>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_service"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/htab_btn_bclick">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/htab_icon_service"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="保養廠"
+                android:textColor="#FFFFFF"></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_gas"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/htab_btn_bclick">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/htab_icon_gas"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="加油站"
+                android:textColor="#FFFFFF"></TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_stop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/htab_btn_bclick">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/htab_icon_stop"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="停車場"
+                android:textColor="#FFFFFF"></TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_wash"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/htab_btn_bclick">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/htab_icon_wash"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="洗車場"
+                android:textColor="#FFFFFF"></TextView>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ImageButton_GoToMyLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LayoutSelect_page"
+        android:layout_alignParentRight="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/ur_poi_btn_location"
+        />
+
+    <ImageButton
+        android:id="@+id/ImageButton_3d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ImageButton_GoToMyLocation"
+        android:layout_alignParentRight="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/ur_s_btn_3d_bk"
+        />
+
+    <ImageButton
+        android:id="@+id/ImageButton_park"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ImageButton_3d"
+        android:layout_alignParentRight="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/ur_s_btn_park_bk"
+        />
+
+    <LinearLayout
+        android:id="@+id/EditTextViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F4E9"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/mylovebutton"
+            android:layout_height="56dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/ur_poi_list2"
+            android:layout_marginTop="60dp" >
+
+            <ImageView
+                android:id="@+id/myloveimg"
+                android:background="@drawable/icon_mylove"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"/>
+
+            <ImageView
+                android:background="@drawable/icon_arrow"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="我的最愛"
+                android:textColor="#000000"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/myloveimg" />
+
+        </RelativeLayout>
+        <ListView
+            android:id="@+id/mPoiLoveListView"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/ur_poi_list2"
+            ></ListView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/LayoutSelect_Poi_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bk_yellow"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_marginTop="52dp" >
+    <ListView
+        android:id="@+id/mPoiMapListView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp" />
+
+
+</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/noKeyWordlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F4E9"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="40dp">
+
+        >
+        <ImageView
+            android:id="@+id/serchimg"
+            android:src="@drawable/icon_search"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="很抱歉 ！"
+            android:textSize="30dp"
+            android:textColor="#B2A093"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="140dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="目前找不到您所搜尋的關鍵字相關內容，建議您換個關鍵字試試看。"
+            android:textSize="18dp"
+            android:textColor="#B2A093"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="190dp"
+            android:lines="2"
+            ></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutSelect_page"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:background="#B2000000"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+          <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="3">
+              <TextView
+                  android:id="@+id/poi_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="咖啡弄"
+                  android:textColor="#FFFFFF"
+                  android:textSize="16dp"
+                ></TextView>
+
+              <TextView
+                  android:id="@+id/poi_englishName"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Coffer Alley"
+                  android:textColor="#f3f3f3"
+                  android:textSize="16dp"
+                  android:layout_marginTop="4dp"></TextView>
+
+              <TextView
+                  android:id="@+id/poi_cat"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="輕食,咖啡,下午茶"
+                  android:textColor="#F9835E"
+                  android:textSize="12dp"
+                  android:layout_marginTop="4dp"></TextView>
+
+              <TextView
+                  android:id="@+id/poi_add"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="台北市大安區敦化南路二段187巷48號"
+                  android:textColor="#8c8c8c"
+                  android:textSize="12dp"
+                  android:layout_marginTop="4dp"></TextView>
+          </LinearLayout>
+            <LinearLayout
+                android:id="@+id/shopType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="9">
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:background="@drawable/icon_enter"
+                    android:layout_gravity="center"
+
+                    ></View>
+                <View
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="2dp"
+                    android:layout_height="91dp"
+                    android:background="#777777"
+
+                    ></View>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="8">
+                <ImageButton
+                    android:id="@+id/btn_navigation"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_navigation"
+
+                    ></ImageButton>
+
+                <TextView
+                    android:id="@+id/poi_km"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="0.0km"
+                    android:textColor="#8c8c8c"
+                    android:textSize="16dp"></TextView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/poi_select"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="110dp"
+        android:background="#543e3b"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:background="#543e3b">
+
+            <ImageButton
+                android:id="@+id/place_img_btn"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@drawable/hfulterbtnmap_list"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/place_img_btn_list"
+                android:layout_width="47dp"
+                android:layout_height="30dp"
+                android:background="@drawable/hfulterbtnmap"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="470dp"
+        android:visibility="gone">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Top"
+        style="@style/GtTop"
+        android:background="#F9835E">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            >
+            <ImageButton
+                android:id="@+id/ImageButtonBack"
+                style="@style/GtTopBack"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/urpoieditext"
+                android:layout_height="36dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/ur_poi_input"
+                android:layout_marginTop="4dp"
+                android:textColorHint="#C8C8C8"
+                android:hint="搜尋特約商店"
+                android:singleLine="true"
+                android:gravity="center"
+                ></EditText>
+            <ImageButton
+                android:id="@+id/ButtonCancel"
+                android:background="@drawable/ur_poi_btndel"
+                android:layout_centerVertical="true"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                ></ImageButton>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="3">
+            <ImageButton
+                android:id="@+id/urpoibtnlist"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ur_poi_btn_list"
+                android:background="@null"
+
+              ></ImageButton>
+            <ImageButton
+                android:id="@+id/urpoibtnmap"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ur_poi_btn_map"
+                android:background="@null"
+                android:visibility="invisible"
+                ></ImageButton>
+            <ImageButton
+                android:id="@+id/urpoibtnsearch"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ur_poi_searchbtn"
+                android:background="@null"
+                android:visibility="invisible"
+
+                ></ImageButton>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/mobilelocus_map.xml -->

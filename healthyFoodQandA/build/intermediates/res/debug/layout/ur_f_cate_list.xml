@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/NormalPageStyle"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ur_f_cate_list_toolbar"
+        android:visibility="gone"
+        layout="@layout/toolbar" />
+    　<LinearLayout
+    style="@style/WMatchHWrap"
+    android:orientation="horizontal"
+
+
+    >
+    <Button
+        android:id="@+id/ur_f_cate_list_btn_cate"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/ur_s_btn_cate_bk"
+        android:drawableRight="@drawable/icon_unfold"
+        android:textSize="18sp"
+        android:text="@string/ur_f_coupon_type_btn_cate"
+      android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/ur_f_cate_list_btn_Select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/ur_s_btn_cate_bk"
+        android:drawableRight="@drawable/icon_unfold"
+        android:textSize="18sp"
+        android:text="排序"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/ur_f_cate_list_btn_Select2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/ur_s_btn_cate_bk"
+        android:drawableRight="@drawable/icon_merge"
+        android:textSize="18sp"
+        android:text="排序"
+        android:layout_weight="1"
+        android:visibility="gone"
+        />
+</LinearLayout>
+
+
+    <RelativeLayout
+        style="@style/WMatchHFull">
+
+        <ListView
+            android:id="@+id/ur_f_cate_list_items"
+            style="@style/WHMatchParent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:background="@android:color/transparent" />
+
+        <GridView
+            android:id="@+id/ur_f_cate_grid_items"
+            style="@style/WHMatchParent"
+            android:numColumns="auto_fit"
+            android:columnWidth="156dp"
+            android:gravity="center"
+            android:stretchMode="spacingWidthUniform"
+            android:horizontalSpacing="4dp"
+            android:verticalSpacing="4dp"
+            android:background="@android:color/transparent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/ur_f_cate_text_no_coupon"
+            style="@style/TextBlackTitle20SP"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/text_bk_grey"
+            android:text="@string/ur_f_coupon_text_all_got"
+            android:visibility="invisible"/>
+
+        <ListView
+            android:id="@+id/ur_f_cate_list_catelist"
+            style="@style/WHMatchParent"
+            android:divider="@color/divider_grey"
+            android:dividerHeight="1dp"
+            android:background="@android:color/white"/>
+        <ListView
+            android:id="@+id/ur_f_cate_list_Select"
+            style="@style/WHMatchParent"
+            android:divider="@color/divider_grey"
+            android:dividerHeight="1dp"
+            android:background="@android:color/white"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/ur_f_cate_list.xml -->

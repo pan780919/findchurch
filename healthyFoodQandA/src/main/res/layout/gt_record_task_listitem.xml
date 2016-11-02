@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/RelativeLayout_Listitem"
+    android:layout_width="fill_parent"
+    android:layout_height="64dp"
+              android:orientation="horizontal"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <LinearLayout
+        style="@style/WHMatchParent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/ur_s_list_bk">
+
+        <ImageView
+            android:id="@+id/ImageType"
+            style="@style/WHWrapContent"
+            android:layout_margin="8dp"
+            android:src="@drawable/icon_draw"/>
+
+        <TextView
+            android:id="@+id/TextView_TaskName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="9"
+            android:text="看命了！"
+            android:textStyle="bold"
+            android:textColor="@color/font"
+            android:textSize="16dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <View
+                android:background="@color/subtitle_grey"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_add"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="72dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/Layout_Point"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/TextView_Point"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/bk_orange"
+                    android:textSize="16dip"/>
+
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/t_point"
+                    android:textColor="@color/font_dark"
+                    android:textSize="14dip"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView_State"
+                android:layout_width="72dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/mbanner_icon_fail"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

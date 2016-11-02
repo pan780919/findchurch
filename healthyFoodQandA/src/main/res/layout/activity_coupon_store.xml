@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <ur.ur_flow.coupon.MyScrollView
+        android:id="@+id/eee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+
+                   >
+                   <ImageView
+                       android:layout_width="320dp"
+                       android:layout_height="120dp"
+                       android:src="@drawable/icon_bank"
+                      />
+                   <TextView
+                       android:layout_height="match_parent"
+                       android:layout_width="match_parent"
+                       android:text="1234567898997878787878"
+
+
+                       ></TextView>
+
+               </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_couponstore"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+                <ur.ui_component.URTabPageIndicator
+                    android:id="@+id/f_ur_coupon_tab_indicator"
+                    style="@style/WMatchHWrap"/>
+
+
+
+            </LinearLayout>
+            <ListView
+                android:id="@+id/liststore"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></ListView>
+
+            <!--<TextView-->
+                <!--android:id="@+id/dong"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="#008833"-->
+                <!--&lt;!&ndash;android:text="\n\n这  是   滚  动    的     等  一  下  固  定  在 上  面\n\n" />&ndash;&gt;-->
+
+
+        </LinearLayout>
+    </ur.ur_flow.coupon.MyScrollView>
+    <LinearLayout
+        android:id="@+id/layout_couponstore2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <ur.ui_component.URTabPageIndicator
+            android:id="@+id/f_ur_coupon_tab_indicator2"
+            style="@style/WMatchHWrap"/>
+
+    </LinearLayout>
+    <!--<TextView-->
+        <!--android:id="@+id/jing"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#008800"-->
+        <!--android:text="\n\n这    是   固     定     的\n\n" />-->
+</FrameLayout>
