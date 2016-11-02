@@ -5,4 +5,4 @@
     <item android:state_focused="true"
         android:drawable="@drawable/bg_sort_click" /> <!-- focused -->
     <item android:drawable="@drawable/bg_sort" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable-xhdpi/ur_s_btn_cate_bk.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable-xhdpi/ur_s_btn_cate_bk.xml -->

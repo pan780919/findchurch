@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-lo/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-lo/values.xml -->
     <eat-comment/>
     <string msgid="4770915072144378781" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ຕ້ອງ​ການ​ໃຫ້​ມີ​ໜຶ່ງ​ ຫຼື​ ຫຼາຍ​ບໍ​ລິ​ການ​ຂອງ Google Play ທີ່​ບໍ່​ມີ​ໃຫ້​ຢູ່​ໃນ​ປະ​ຈຸ​ບັນ. ກະ​ລຸ​ນາ​ຕິດ​ຕໍ່​ຜູ້​ພັດ​ທະ​ນາ ເພື່ອ​ການ​ຊ່ວຍ​ເຫຼືອ​ເພີ່ມ​ເຕີມ."</string>
     <string msgid="2050101795821476669" name="common_google_play_services_enable_button">"ເປີດໃຊ້ບໍລິການ Google Play"</string>
@@ -21,10 +21,10 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"ໂປຣໄຟລ໌ທີ່ຖືກຈຳກັດ"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"ການ​ເຂົ້າ​ສູ່ລະ​ບົບ​ບັນ​ຊີ​ລະ​ບຸ​ໄວ້​ຜິດ​ພາດ. ກະ​ລຸ​ນາ​ເລືອກ​ບັນ​ຊີ​ອື່ນ."</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"ເຂົ້າສູ່ລະບົບບໍ່​ສຳ​ເລັດ"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values-lo/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values-lo/values.xml -->
     <eat-comment/>
     <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ກຳ​ລັງ​ມີ​ບັນ​ຫາ​ກັບ​ການ​ບໍ​ລິ​ການ Google Play. ຖ້າ​ບັນ​ຫາ​ຍັງ​ສືບ​ຕໍ່, ກະ​ລຸ​ນາ​ຕິດ​ຕໍ່​​ຜູ້​ພັດ​ທະ​ນາ ເພື່ອ​ຂໍ​ຄວາມ​ຊ່ວຍ​ເຫຼືອ."</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-lo/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-lo/values.xml -->
     <eat-comment/>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ຂຶ້ນ​ກັບ​ການ​ບໍ​ລິ​ການ Google Play, ເຊິ່ງ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ​ບໍ່​ຮອງ​ຮັບ. ຕິດ​ຕໍ່​ຫາ​ຜູ້​ຜະ​ລິດ​ເພື່ອ​ຂໍ​ການ​ຊ່ວຍ​ເຫຼືອ​ເພີ່ມ​ເຕີມ."</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"ບໍລິການ Google Play"</string>
@@ -37,7 +37,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"​ເປີດ​ໃນ​ໂທ​ລະ​ສັບ"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ລົງຊື່ເຂົ້າໃຊ້"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"ລົງຊື່ເຂົ້າໃຊ້ດ້ວຍ Google"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-lo/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-lo/values.xml -->
     <eat-comment/>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"ລຶບ​ການ​ຊອກ​ຫາ"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"ຄົ້ນຫາ"</string>

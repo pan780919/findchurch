@@ -1,5 +1,5 @@
--injars 'C:\Users\HYXEN20141227\Desktop\HealthyFoodQandA\healthyFoodQandA\build\intermediates\multi-dex\debug\allclasses.jar'
--outjars 'C:\Users\HYXEN20141227\Desktop\HealthyFoodQandA\healthyFoodQandA\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'C:\Users\HYXEN20141227\Documents\findchurch\healthyFoodQandA\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'C:\Users\HYXEN20141227\Documents\findchurch\healthyFoodQandA\build\intermediates\multi-dex\debug\componentClasses.jar'
 
 -libraryjars 'C:\Users\HYXEN20141227\AppData\Local\Android\Sdk\build-tools\23.0.2\lib\shrinkedAndroid.jar'
 
@@ -8,7 +8,7 @@
 -dontobfuscate
 -dontpreverify
 -dontwarn
--printconfiguration 'C:\Users\HYXEN20141227\Desktop\HealthyFoodQandA\healthyFoodQandA\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'C:\Users\HYXEN20141227\Documents\findchurch\healthyFoodQandA\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class null {

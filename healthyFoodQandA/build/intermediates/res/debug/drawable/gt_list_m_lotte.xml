@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/list_m_lotte_click" /> <!-- focused -->
     <item android:drawable="@drawable/list_m_lotte" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/gt_list_m_lotte.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/gt_list_m_lotte.xml -->

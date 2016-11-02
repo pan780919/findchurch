@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/btn_search_click" /> <!-- focused -->
     <item android:drawable="@drawable/btn_search" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/ur_poi_searchbtn.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/ur_poi_searchbtn.xml -->

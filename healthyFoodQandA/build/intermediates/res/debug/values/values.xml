@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="coupon_hint">
         <item>尚未接收到折扣劵訊息</item>
@@ -12,15 +12,15 @@
         <item>尚未接收到活動訊息</item>
         <item>尚未收藏活動訊息</item>
     </string-array>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/attrs.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/attrs.xml -->
     <eat-comment/>
     <attr format="boolean" name="centered"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="mediaRouteButtonStyle"/>
     <attr format="reference" name="mediaRouteCastDrawable"/>
@@ -30,17 +30,17 @@
     <attr format="reference" name="mediaRoutePauseDrawable"/>
     <attr format="reference" name="mediaRoutePlayDrawable"/>
     <attr format="reference" name="mediaRouteSettingsDrawable"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/attrs.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/attrs.xml -->
     <eat-comment/>
     <attr format="color" name="selectedColor"/>
     <attr format="dimension" name="strokeWidth"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="string" name="title"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/attrs.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/attrs.xml -->
     <eat-comment/>
     <attr format="color" name="unselectedColor"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
@@ -50,15 +50,15 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/defaults.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/defaults.xml -->
     <eat-comment/>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/analytics.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/analytics.xml -->
     <eat-comment/>
     <bool name="ga_autoActivityTracking">true</bool>
     <bool name="ga_reportUncaughtExceptions">true</bool>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -66,16 +66,16 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="background">#efefef</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="background_task">#d9f1bd</color>
     <color name="bk_click_yellow">#fcf7d6</color>
@@ -86,7 +86,7 @@
     <color name="black2">#ff666666</color>
     <color name="blue">#0090ff</color>
     <color name="bright_brown">#d8cdbd</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -94,25 +94,25 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="brown">#94846e</color>
     <color name="brown_gold">#a07828</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#ffffff</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.adlocus/library/3.5.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.adlocus/library/3.5.2/res/values/values.xml -->
     <eat-comment/>
     <color name="color_bigview_setting_text_black">#262626</color>
     <color name="color_bigview_setting_text_click">#bdbdbd</color>
     <color name="color_bigview_setting_text_grey">#7e7e7e</color>
     <color name="color_bigview_setting_text_red">#d0111b</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
@@ -131,17 +131,17 @@
     <color name="common_plus_signin_btn_text_light_disabled">#FFAAAAAA</color>
     <color name="common_plus_signin_btn_text_light_focused">#FF737373</color>
     <color name="common_plus_signin_btn_text_light_pressed">#DE000000</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="cyan">#6bcbca</color>
     <color name="dark_brown">#655845</color>
     <color name="dark_gray">#434343</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/defaults.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/defaults.xml -->
     <eat-comment/>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
     <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -153,16 +153,16 @@
     <color name="design_snackbar_background_color">#323232</color>
     <color name="design_textinput_error_color_dark">#FFFF6E6E</color>
     <color name="design_textinput_error_color_light">#FFD50000</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="dialog_background">#30000000</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="divider_deep_grey">#e9e8e5</color>
     <color name="divider_deep_grey_ca">#CACACA</color>
@@ -176,29 +176,29 @@
     <color name="font_red">#e4492f</color>
     <color name="font_setting">#daffb0</color>
     <color name="font_white">#ffffff</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <color name="gery_back">#aa000000</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="gray">#a0a0a0</color>
     <color name="gray_line">#cdcdcd</color>
     <color name="green">#97ce68</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="indicator_normal">#55000000</color>
     <color name="indicator_show">#fff092</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
@@ -212,7 +212,7 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="place_autocomplete_prediction_primary_text">#212121</color>
     <color name="place_autocomplete_prediction_primary_text_highlight">#757575</color>
@@ -220,7 +220,7 @@
     <color name="place_autocomplete_search_hint">#BDBDBD</color>
     <color name="place_autocomplete_search_text">#212121</color>
     <color name="place_autocomplete_separator">#1F000000</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -230,11 +230,11 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="purple">#a67dba</color>
     <color name="red">#f03241</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -242,16 +242,16 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="subtitle_grey">#8c8c8c</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="tab_blue">#18299F</color>
     <color name="tab_click">#00763e</color>
@@ -267,7 +267,7 @@
     <color name="text_hint_orange">#EAAB97</color>
     <color name="text_yellow">#fff092</color>
     <color name="trans_light">#99eaeaea</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -282,7 +282,7 @@
     <color name="wallet_hint_foreground_holo_light">#808080</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="white">#ffffff</color>
     <color name="yellow">#ffc371</color>
@@ -357,7 +357,7 @@
     <declare-styleable name="ViewfinderView"/>
     <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="test" value="3"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
     <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with" value="5"/><enum name="logo_only" value="6"/><enum name="donate_with" value="7"/><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/><enum name="donate_with_google" value="4"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="google_wallet_classic" value="1"/><enum name="google_wallet_grayscale" value="2"/><enum name="google_wallet_monochrome" value="3"/><enum name="android_pay_dark" value="4"/><enum name="android_pay_light" value="5"/><enum name="android_pay_light_with_border" value="6"/><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="google_wallet_classic" value="1"/><enum name="google_wallet_monochrome" value="2"/><enum name="android_pay" value="3"/><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -426,15 +426,15 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/defaults.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/defaults.xml -->
     <eat-comment/>
     <dimen name="default_circle_indicator_radius">3dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_sheet_modal_elevation">16dp</dimen>
@@ -465,32 +465,32 @@
     <dimen name="design_tab_scrollable_min_width">72dp</dimen>
     <dimen name="design_tab_text_size">14sp</dimen>
     <dimen name="design_tab_text_size_2line">12sp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="fab_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="mr_media_route_controller_art_max_height">320dp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="place_autocomplete_button_padding">16dp</dimen>
     <dimen name="place_autocomplete_powered_by_google_height">40dp</dimen>
@@ -502,66 +502,66 @@
     <dimen name="place_autocomplete_progress_horizontal_margin">16dp</dimen>
     <dimen name="place_autocomplete_progress_size">24dp</dimen>
     <dimen name="place_autocomplete_separator_start">72dp</dimen>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.adlocus/library/3.5.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.adlocus/library/3.5.2/res/values/values.xml -->
     <eat-comment/>
     <drawable name="color_bigview_btn_bg_click">#80000000</drawable>
     <drawable name="color_bigview_btn_bg_normal">#00000000</drawable>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <item name="cast_notification_id" type="id"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <item name="crash_reporting_present" type="id"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="home" type="id"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="view_offset_helper" type="id"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="bottom_sheet_slide_duration">150</integer>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="cancel_button_image_alpha">127</integer>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/defaults.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/defaults.xml -->
     <eat-comment/>
     <integer name="default_circle_indicator_orientation">0</integer>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="design_snackbar_text_max_lines">2</integer>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">9080000</integer>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="Network_in">網路連線中!!!"</string>
     <string name="Network_status">網路狀態</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -582,42 +582,42 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="about">關　於</string>
     <string name="about_des">MobileLocus Map 服務程式由 HyXen Technology 提供，服務程式相關問題，請逕洽 HyXen Technology。\nE-mail: support@hyxen.com</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="accept">Accept</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="allow_get_location">是否允取 MobileLocus Map 應用程式收集匿名資料？如果您未開啟 MobileLocus Map，即不會收集這些匿名資料。</string>
     <string name="allow_get_location_title">授權</string>
     <string name="app_name">新北找教堂</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="banner_ad_unit_id">ca-app-pub-7019441527375550/8291407829</string>
     <string name="barcode_light">亮度調整</string>
     <string name="barcode_tip">點選條碼可放大條碼圖案以利掃描</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="cancel">取消</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
     <string name="cast_notification_disconnect">Disconnect</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
@@ -638,10 +638,10 @@
     <string name="common_google_play_services_restricted_profile_title">Restricted Profile</string>
     <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
     <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
     <string name="common_google_play_services_unsupported_title">Google Play services</string>
@@ -654,7 +654,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="confirm_delete">是否確定要刪除？</string>
     <string name="confirm_get_coupon">是否確定要領取折扣券？</string>
@@ -683,12 +683,12 @@
     <string name="coupon_view_price_ticket">票券價值：</string>
     <string name="coupon_view_time"> 領取時間：</string>
     <string name="coupon_view_type">類　　型：</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="decline">Decline</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="delete_fail">刪除失敗，請稍候再試。</string>
     <string name="delete_space">刪　除</string>
@@ -726,10 +726,10 @@
     <string name="f_home_btn_news">玩樂通告</string>
     <string name="f_home_btn_store">嬉街</string>
     <string name="f_home_title">嬉街趣</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/analytics.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/analytics.xml -->
     <eat-comment/>
     <string name="ga_trackingId">UA-58399132-49</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="get_coupon_1">領取折扣券</string>
     <string name="get_coupon_2">領取限量折扣券</string>
@@ -846,7 +846,7 @@
     <string name="mission_type_701">分享影片</string>
     <string name="mission_type_9">問劵</string>
     <string name="mobilelocus_des">MobileLocus 是勝義科技自行開發的一個混合式位置計算平臺，係整合 GPS 衛星信號特徵、蜂巢細胞基地台信號特徵和 WiFi AP 信號特徵，並以獨特專利的演算法來計算使用者的位置。</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="mr_media_route_button_content_description">Cast</string>
     <string name="mr_media_route_chooser_searching">Searching for devices\u2026</string>
@@ -859,7 +859,7 @@
     <string name="mr_media_route_controller_stop">Stop casting</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="my_location">我的位置</string>
     <string name="my_location_2">〈精確到 %1$s 公尺〉</string>
@@ -874,11 +874,11 @@
     <string name="no_internet_no_store_data">網路無連線無法取得適用店家詳細資料</string>
     <string name="no_network ">目前無網路連線</string>
     <string name="ok">確定</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="push_notify_ad">活動速報</string>
     <string name="push_notify_coupon">折扣券速報</string>
@@ -902,17 +902,17 @@
     <string name="smartid_login_tip">請先登入SmartID</string>
     <string name="sound_a">開啟通知音效</string>
     <string name="sound_b">關閉通知音效</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="suit_store">適用店家</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/task_strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/task_strings.xml -->
     <eat-comment/>
     <string name="t_address">地址：</string>
     <string name="t_address_hint">需填寫完整地址</string>
@@ -1110,16 +1110,16 @@
     <string name="t_total_point">已累積</string>
     <string name="t_touch_again_to_close">再按一次返回鍵回到ZeroCard首頁</string>
     <string name="t_your_invite_code">您的邀請碼</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="tab_ad">活動速報</string>
     <string name="tab_coupon_get">我的折扣券</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="tagmanager_preview_dialog_button">Continue</string>
     <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
     <string name="tagmanager_preview_dialog_title">Preview</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/task_strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/task_strings.xml -->
     <eat-comment/>
     <string name="task">任務</string>
     <string name="task_des">任務說明</string>
@@ -1142,7 +1142,7 @@
     <string name="task_verify">任務驗證中，請稍後…</string>
     <string name="task_zerocard">熊賺錢</string>
     <string name="task_zerocard_02">解任務賺點數</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_about">關於DOIT</string>
     <string name="title_activity_about">聯絡我們</string>
@@ -1287,10 +1287,10 @@
     <string name="ur_v_firstNotice_notice">歡迎來到嬉街趣，兩步驟快速註冊成為會員，立即索取免費優惠券！</string>
     <string name="waiting">請稍候</string>
     <string name="waitting">請稍後.....</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="wifi_btn_connect">使用Gt體驗館Wifi</string>
     <string name="wifi_btn_unconnect">結束Wifi連線</string>
@@ -1299,7 +1299,7 @@
     <string name="wifi_state_off">未連線</string>
     <string name="wifi_state_on">已連線至Gt</string>
     <string name="yes">是</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.adlocus/library/3.5.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.adlocus/library/3.5.2/res/values/values.xml -->
     <eat-comment/>
     <style name="AdLocusDialogTheme" parent="android:Theme.Light.NoTitleBar">
          <item name="android:windowIsTranslucent">true</item>
@@ -1309,19 +1309,19 @@
          <item name="android:windowIsFloating">true</item>
          <item name="android:backgroundDimEnabled">false</item>
      </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Animation.Design.BottomSheetDialog" parent="Animation.AppCompat.Dialog">
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="actionBarSize">50dip</item>
@@ -1333,7 +1333,7 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -2290,7 +2290,7 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
         <item name="tabMaxWidth">@dimen/design_tab_max_width</item>
@@ -2302,7 +2302,7 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="FullWidthButton" parent="WMatchHWrap">
         <item name="android:layout_margin">8dp</item>
@@ -2429,7 +2429,7 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:background">@drawable/ur_s_btn_long_bk</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -2529,7 +2529,7 @@
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Spinner"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="RedeemDialog" parent="android:Theme.Dialog">
         <item name="android:layout_width">match_parent</item>
@@ -2540,7 +2540,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowBackground">@color/gery_back</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
@@ -2644,7 +2644,7 @@
     </style>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="TextAppearance.AppCompat.Display1">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
@@ -2668,7 +2668,7 @@
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="textAllCaps">true</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.StatusBar.EventContent" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Info" parent=""/>
@@ -2681,7 +2681,7 @@
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="TextBlack31Title22SP" parent="WMatchHWrap">
         <item name="android:textSize">20sp</item>
@@ -2717,7 +2717,7 @@
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/bk_orange</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
@@ -2748,7 +2748,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.AppInvite.Preview" parent="Theme.AppInvite.Preview.Base">
         <item name="android:colorBackground">@android:color/white</item>
@@ -2756,7 +2756,7 @@
         <item name="android:windowIsTranslucent">true</item>
     </style>
     <style name="Theme.AppInvite.Preview.Base" parent="@android:style/Theme.Light.NoTitleBar"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.CustomDialog" parent="android:style/Theme.Dialog">
         <item name="android:windowBackground">@drawable/dialog_style</item>
@@ -2764,7 +2764,7 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowFrame">@null</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.Design" parent="Theme.AppCompat">
         <item name="textColorError">@color/design_textinput_error_color_dark</item>
@@ -2790,7 +2790,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.IAPTheme" parent="android:Theme">
     <item name="android:windowIsTranslucent">true</item>
@@ -2800,7 +2800,7 @@
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.MediaRouter" parent="">
         <item name="mediaRouteButtonStyle">@style/Widget.MediaRouter.MediaRouteButton</item>
@@ -2824,7 +2824,7 @@
         <item name="mediaRoutePauseDrawable">@drawable/mr_ic_pause_light</item>
         <item name="mediaRouteCastDrawable">@drawable/mr_ic_cast_light</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/themes.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/themes.xml -->
     <eat-comment/>
     <style name="Theme.MyTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
@@ -2844,7 +2844,7 @@
          colorControlHighlight, and colorSwitchThumbNormal. -->
 
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.Transparent" parent="android:Theme">
         <item name="android:windowIsTranslucent">true</item>
@@ -2853,14 +2853,14 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="TmsToolber" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="windowNoTitle">true</item>
@@ -2894,7 +2894,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="WalletFragmentDefaultButtonTextAppearance">
         <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
@@ -2928,7 +2928,7 @@
         <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
         <item name="maskedWalletDetailsLogoImageType">android_pay</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
@@ -3025,7 +3025,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.Design.AppBarLayout" parent="android:Widget">
         <item name="elevation">@dimen/design_appbar_elevation</item>
@@ -3082,7 +3082,7 @@
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.MediaRouter.Light.MediaRouteButton" parent="Widget.AppCompat.Light.ActionButton">
         <item name="android:minWidth">56dp</item>
@@ -3100,7 +3100,7 @@
         <item name="android:contentDescription">@string/mr_media_route_button_content_description</item>
         <item name="externalRouteEnabledDrawable">@drawable/mr_ic_media_route_mono_dark</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="ZtListLine">
         <item name="android:layout_width">match_parent</item>
@@ -3114,7 +3114,7 @@
         <item name="android:layout_marginBottom">12dp</item>
         <item name="android:background">@drawable/list_line</item>
     </style>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.adlocus/library/3.5.2/res/values/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.adlocus/library/3.5.2/res/values/values.xml -->
     <eat-comment/>
     <style name="bigview_func_btn_style">
         <item name="android:layout_width">0dp</item>

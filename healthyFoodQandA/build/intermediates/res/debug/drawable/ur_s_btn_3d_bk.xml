@@ -5,4 +5,4 @@
 <item android:state_focused="true"
     android:drawable="@drawable/btn_3d_click" /> <!-- focused -->
 <item android:drawable="@drawable/btn_3d" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/ur_s_btn_3d_bk.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/ur_s_btn_3d_bk.xml -->

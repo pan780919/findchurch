@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/list2_click" /> <!-- focused -->
     <item android:drawable="@drawable/list2" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/ur_poi_list2.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/ur_poi_list2.xml -->

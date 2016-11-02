@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/hbtn_fav_click" /> <!-- focused -->
     <item android:drawable="@drawable/hbtn_fav" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/hbtnfav.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/hbtnfav.xml -->

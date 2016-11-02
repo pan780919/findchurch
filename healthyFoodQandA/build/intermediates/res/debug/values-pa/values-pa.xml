@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-pa/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-pa/values.xml -->
     <eat-comment/>
     <string msgid="4770915072144378781" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ਲਈ ਇੱਕ ਜਾਂ ਵੱਧ Google Play ਸੇਵਾਵਾਂ ਦੀ ਲੋੜ ਹੈ, ਜੋ ਇਸ ਵੇਲੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਹਾਇਤਾ ਲਈ ਨਿਰਮਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"</string>
     <string msgid="2050101795821476669" name="common_google_play_services_enable_button">"Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ"</string>
@@ -21,10 +21,10 @@
     <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"ਪ੍ਰਤਿਬੰਧਿਤ ਪ੍ਰੋਫ਼ਾਈਲ"</string>
     <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"ਨਿਰਦਿਸ਼ਟ ਖਾਤਾ ਸਾਈਨ ਇਨ ਕਰਨ ਵਿੱਚ ਅਸ਼ੁੱਧੀ। ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੱਖਰਾ ਖਾਤਾ ਚੁਣੋ।"</string>
     <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"ਸਾਈਨ ਇਨ ਅਸਫਲ ਹੋਇਆ"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values-pa/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/res/values-pa/values.xml -->
     <eat-comment/>
     <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ਨੂੰ Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਸਮੱਸਿਆ ਹੋ ਰਹੀ ਹੈ। ਜੇਕਰ ਸਮੱਸਿਆ ਬਣੀ ਰਹਿੰਦੀ ਹੈ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਸਹਾਇਤਾ ਲਈ ਡਿਵੈਲਪਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-pa/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/values-pa/values.xml -->
     <eat-comment/>
     <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play ਸੇਵਾਵਾਂ \'ਤੇ ਭਰੋਸਾ ਕਰਦੀ ਹੈ, ਜੋ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਵੱਲੋਂ ਸਮਰੱਥ ਨਹੀਂ ਹੈ। ਸਹਾਇਤਾ ਲਈ ਨਿਰਮਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"</string>
     <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play ਸੇਵਾਵਾਂ"</string>
@@ -37,7 +37,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"ਫ਼ੋਨ \'ਤੇ ਖੋਲ੍ਹੋ"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ਸਾਈਨ ਇਨ ਕਰੇ"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ"</string>
-    <!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-pa/values.xml -->
+    <!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.0/res/values-pa/values.xml -->
     <eat-comment/>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"ਖੋਜ ਹਟਾਓ"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"ਖੋਜੋ"</string>

@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/btn4_default_gray_click" /> <!-- focused -->
     <item android:drawable="@drawable/btn4_default_gray" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/gt_button4_default_gray.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/gt_button4_default_gray.xml -->

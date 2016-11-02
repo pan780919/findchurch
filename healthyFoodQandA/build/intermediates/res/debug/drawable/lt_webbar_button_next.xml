@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/webar_btn_next_click" /> <!-- focused -->
     <item android:drawable="@drawable/webar_btn_next" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/lt_webbar_button_next.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/lt_webbar_button_next.xml -->

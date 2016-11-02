@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/news_read_bg_click" /> <!-- focused -->
     <item android:drawable="@drawable/news_read_bg" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/gt_list_news_read.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/gt_list_news_read.xml -->

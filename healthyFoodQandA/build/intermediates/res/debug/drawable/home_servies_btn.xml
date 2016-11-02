@@ -3,4 +3,4 @@
     <item android:state_pressed="true"
           android:drawable="@drawable/home_btn_service"></item>
     <item android:drawable="@drawable/home_btn_service_click"></item>
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/home_servies_btn.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/home_servies_btn.xml -->

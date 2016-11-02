@@ -5,4 +5,4 @@
     <item android:state_focused="true"
         android:drawable="@color/bk_yellow" /> <!-- focused -->
     <item android:drawable="@android:color/white" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable-xhdpi/ur_s_poi_detail_icon_coupon_bk.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable-xhdpi/ur_s_poi_detail_icon_coupon_bk.xml -->

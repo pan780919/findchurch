@@ -5,4 +5,4 @@
     <item android:state_focused="true"
         android:drawable="@drawable/list3_clisk" /> <!-- focused -->
     <item android:drawable="@drawable/ur_list3" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/ur_s_edit_bk.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/ur_s_edit_bk.xml -->

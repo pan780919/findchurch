@@ -5,4 +5,4 @@
     <item android:state_focused="true"
           android:drawable="@drawable/btn_smartid_on_click" /> <!-- focused -->
     <item android:drawable="@drawable/btn_smartid_on" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable/gt_button_member_on.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable/gt_button_member_on.xml -->

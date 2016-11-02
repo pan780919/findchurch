@@ -5,4 +5,4 @@
     <item android:state_focused="true"
         android:drawable="@drawable/btn_nouse_click" /> <!-- focused -->
     <item android:drawable="@drawable/btn_nouse" /> <!-- default -->
-</selector><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/drawable-xhdpi/ur_s_btn_nouse_bk.xml -->
+</selector><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/drawable-xhdpi/ur_s_btn_nouse_bk.xml -->

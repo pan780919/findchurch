@@ -8,4 +8,4 @@
     android:padding="10dp"
     android:text="Item"
     android:textAppearance="?android:attr/textAppearanceMedium"
-    android:textColor="#cccccc" /><!-- From: file:/C:/Users/HYXEN20141227/Desktop/HealthyFoodQandA/healthyFoodQandA/src/main/res/layout/drawer_list_item.xml -->
+    android:textColor="#cccccc" /><!-- From: file:/C:/Users/HYXEN20141227/Documents/findchurch/healthyFoodQandA/src/main/res/layout/drawer_list_item.xml -->
