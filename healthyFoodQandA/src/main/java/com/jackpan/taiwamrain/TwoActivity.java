@@ -158,7 +158,7 @@ public class TwoActivity extends Activity {
 		AdView mAdView = (AdView) findViewById(R.id.adView);
 		AdRequest adRequest = new AdRequest.Builder().build();
 		mAdView.loadAd(adRequest);
-			loadIntent();
+//			loadIntent();
 //		LoadNetAsyncTask loadNetAsyncTask2 = new LoadNetAsyncTask();
 //		loadNetAsyncTask2.execute(MyAdKey.jsondata2);
 	
@@ -169,95 +169,95 @@ public class TwoActivity extends Activity {
 
 	}
 
-	private void loadIntent() {
-		String json = getIntent().getStringExtra("json");
-		final String lat = getIntent().getStringExtra("Latitude");
-		final String lon = getIntent().getStringExtra	("Longitude");
-//		final String latList = getIntent().getStringExtra("latList");
-//		final double latList = getIntent().getDoubleExtra("latList", 0);
-////		final String lonList = getIntent().getStringExtra("lonList");
-//		final double lonList = getIntent().getDoubleExtra("lonList", 0);
-
-//		Log.e("Jack","lat"+Double.parseDouble(latList)+""+"lon"+Double.parseDouble(lonList));
-		 data = new Gson().fromJson(json, ResultData.class);
-		// loadImage(data.album_file, img);
-//	
-		textview.setText("流水號:" + data.CHR_ID);
-		textview2.setText("教堂名稱:" + data.CHR_Name);
-		
-
-		
-		
-		textview3.setText("所在區域:" + data.CHR_Area);
-		textview4.setText("地址:" + data.CHR_Address);
-		textview5.setText("負責人:" + data.CHR_Charge);
-	
-		textview6.setText("電話:" + data.CHR_Phone);
-		textview6.setTextColor(Color.RED);
-		textview6.setTextSize(24);
-
-		textview6.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				if(data.CHR_Phone.equals("")) {
-					Toast.makeText(getApplicationContext(), "無電話資訊！！", Toast.LENGTH_SHORT).show();
-					return;
-				}
-				 Intent myIntentDial = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+data.CHR_Phone));
-			      startActivity(myIntentDial);
-				
-			}
-		});
-	
-		textview7.setText("建造日期:" + data.CHR_BuildTime);
-	
-//		textview9.setText("停車場（腳踏車）總車架數 :" + data.TOTALBIKE);
-//		textview10.setText("停車場收費資訊:" + data.PAYEX);
-//		if(data.TEL.equals("")) textview11.setVisibility(View.GONE);
-//		textview11.setText("停車場電話:" + data.TEL);
-//		textview11.setTextSize(24);
-//		textview11.setTextColor(Color.RED);
-//		
-//		textview11.setOnClickListener(new OnClickListener() {
-//			
+//	private void loadIntent() {
+//		String json = getIntent().getStringExtra("json");
+//		final String lat = getIntent().getStringExtra("Latitude");
+//		final String lon = getIntent().getStringExtra	("Longitude");
+////		final String latList = getIntent().getStringExtra("latList");
+////		final double latList = getIntent().getDoubleExtra("latList", 0);
+//////		final String lonList = getIntent().getStringExtra("lonList");
+////		final double lonList = getIntent().getDoubleExtra("lonList", 0);
+//
+////		Log.e("Jack","lat"+Double.parseDouble(latList)+""+"lon"+Double.parseDouble(lonList));
+//		 data = new Gson().fromJson(json, ResultData.class);
+//		// loadImage(data.album_file, img);
+////
+//		textview.setText("流水號:" + data.CHR_ID);
+//		textview2.setText("教堂名稱:" + data.CHR_Name);
+//
+//
+//
+//
+//		textview3.setText("所在區域:" + data.CHR_Area);
+//		textview4.setText("地址:" + data.CHR_Address);
+//		textview5.setText("負責人:" + data.CHR_Charge);
+//
+//		textview6.setText("電話:" + data.CHR_Phone);
+//		textview6.setTextColor(Color.RED);
+//		textview6.setTextSize(24);
+//
+//		textview6.setOnClickListener(new OnClickListener() {
+//
 //			@Override
 //			public void onClick(View v) {
-//			    
-//			        Intent myIntentDial = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+data.TEL));
-//			        startActivity(myIntentDial);
-//				
+//				if(data.CHR_Phone.equals("")) {
+//					Toast.makeText(getApplicationContext(), "無電話資訊！！", Toast.LENGTH_SHORT).show();
+//					return;
+//				}
+//				 Intent myIntentDial = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+data.CHR_Phone));
+//			      startActivity(myIntentDial);
+//
 //			}
 //		});
-//		MyApi.cal_TWD97_To_lonlat(Double.parseDouble(data.TW97X), Double.parseDouble(data.TW97Y));
-////		
 //
-////        boolean isGpsOpen = MySharedPreferences.getIsGPSState(TwoActivity.this);
-////        
-		MyApi.mGecoder(getApplicationContext(), data.CHR_Address);
-        googlbtn.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				   String startLat =lat;
-	                String startLng = lon;
-	                String endLat = String.valueOf(MyApi.getGeocoderlat());
-	                String endLng = String.valueOf(MyApi.getGeocoderlon());
-	                Uri uri = Uri.parse("http://maps.google.com/maps? f=d&saddr=" + startLat + "%20" + startLng + "&daddr=" + endLat + "%20" + endLng + "&hl=tw");
-	                Intent it = new Intent(Intent.ACTION_VIEW, uri);
-	                startActivity(it);
-			}
-		});
-
-		
+//		textview7.setText("建造日期:" + data.CHR_BuildTime);
 //
-//		
-		
-	
-		
-
-	}
+////		textview9.setText("停車場（腳踏車）總車架數 :" + data.TOTALBIKE);
+////		textview10.setText("停車場收費資訊:" + data.PAYEX);
+////		if(data.TEL.equals("")) textview11.setVisibility(View.GONE);
+////		textview11.setText("停車場電話:" + data.TEL);
+////		textview11.setTextSize(24);
+////		textview11.setTextColor(Color.RED);
+////
+////		textview11.setOnClickListener(new OnClickListener() {
+////
+////			@Override
+////			public void onClick(View v) {
+////
+////			        Intent myIntentDial = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+data.TEL));
+////			        startActivity(myIntentDial);
+////
+////			}
+////		});
+////		MyApi.cal_TWD97_To_lonlat(Double.parseDouble(data.TW97X), Double.parseDouble(data.TW97Y));
+//////
+////
+//////        boolean isGpsOpen = MySharedPreferences.getIsGPSState(TwoActivity.this);
+//////
+//		MyApi.mGecoder(getApplicationContext(), data.CHR_Address);
+//        googlbtn.setOnClickListener(new OnClickListener() {
+//
+//			@Override
+//			public void onClick(View v) {
+//				// TODO Auto-generated method stub
+//				   String startLat =lat;
+//	                String startLng = lon;
+//	                String endLat = String.valueOf(MyApi.getGeocoderlat());
+//	                String endLng = String.valueOf(MyApi.getGeocoderlon());
+//	                Uri uri = Uri.parse("http://maps.google.com/maps? f=d&saddr=" + startLat + "%20" + startLng + "&daddr=" + endLat + "%20" + endLng + "&hl=tw");
+//	                Intent it = new Intent(Intent.ACTION_VIEW, uri);
+//	                startActivity(it);
+//			}
+//		});
+//
+//
+////
+////
+//
+//
+//
+//
+//	}
 	
 	@Override
 	protected void onPause() {

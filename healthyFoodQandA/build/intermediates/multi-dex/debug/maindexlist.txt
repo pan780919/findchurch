@@ -564,7 +564,6 @@ android/support/design/widget/CoordinatorLayout$1.class
 com/google/firebase/storage/StorageException.class
 android/support/annotation/FractionRes.class
 android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.class
-com/jackpan/taiwamrain/MyApi.class
 com/google/android/gms/internal/zzdd.class
 com/google/android/gms/ads/doubleclick/PublisherAdRequest.class
 com/google/android/gms/internal/zzib.class
@@ -653,7 +652,6 @@ com/google/android/gms/appdatasearch/GetRecentContextCall$Response.class
 com/google/android/gms/location/places/ui/PlacePicker.class
 android/support/v4/app/FragmentActivity$1.class
 android/support/design/widget/AnimationUtils.class
-com/jackpan/taiwamrain/ResultData.class
 com/google/android/gms/internal/zzlg.class
 android/support/v4/app/BackStackRecord.class
 com/igexin/sdk/PushManager.class
@@ -954,7 +952,6 @@ com/google/android/gms/ads/internal/zzu.class
 com/google/android/gms/wearable/DataApi$GetFdForAssetResult.class
 android/support/v4/view/ViewCompat.class
 com/igexin/download/f.class
-com/jackpan/taiwamrain/TwoActivity$2.class
 android/support/v4/view/WindowInsetsCompat.class
 com/google/android/gms/common/ConnectionResult.class
 com/google/android/gms/ads/internal/request/AdRequestInfoParcel$zza.class
@@ -978,7 +975,6 @@ com/google/android/gms/auth/api/signin/SignInAccount.class
 android/support/annotation/StyleRes.class
 com/google/android/gms/internal/zzdc.class
 android/support/v4/media/MediaMetadataCompat$1.class
-com/jackpan/taiwamrain/TwoActivity$3.class
 com/adlocus/e.class
 com/google/android/gms/internal/zzgw.class
 android/support/v4/view/MenuCompat.class
@@ -991,7 +987,6 @@ com/google/android/gms/internal/zzhx.class
 com/google/android/gms/wearable/CapabilityApi$AddLocalCapabilityResult.class
 android/support/v4/media/session/PlaybackStateCompat$CustomAction.class
 android/support/design/widget/CoordinatorLayout$ViewElevationComparator.class
-com/google/gson/Gson.class
 android/support/v4/app/ActivityCompat21.class
 com/google/android/gms/ads/MobileAds.class
 com/google/android/gms/ads/internal/client/zze.class

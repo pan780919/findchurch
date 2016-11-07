@@ -62,11 +62,8 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 
 import com.jackpan.findchurch.R;
-import com.jackpan.taiwamrain.ui.SimpleDialog;
-import com.widget.VersionChecker;
 //import com.google.analytics.tracking.android.EasyTracker;
 
 public class MainActivity extends Activity implements android.location.LocationListener{
@@ -341,11 +338,12 @@ public class MainActivity extends Activity implements android.location.LocationL
 				try {
 
 //					JSONArray jsonarry = new JSONArray(result.replaceAll("\\},\\s?\\{", ","));
-					JSONArray jsonarry2 = new JSONArray(result);
-//					JSONObject o = new JSONObject(result);
-//				    JSONObject resultObj = o.getJSONObject("result");
-//				    JSONArray jsonArray = resultObj.getJSONArray("records");
-//					Log.e("Jack", "jsonarry:" + jsonarry.length());
+//					JSONArray jsonarry2 = new JSONArray(result);
+
+					JSONObject o = new JSONObject(result);
+				    JSONObject resultObj = o.getJSONObject("result");
+				    JSONArray jsonarry2 = resultObj.getJSONArray("results");
+					Log.e("Jack", "jsonarry:" + jsonarry2.length());
 					
 	
 						for(int i = 0 ; i<jsonarry2.length();i++){
@@ -379,9 +377,8 @@ public class MainActivity extends Activity implements android.location.LocationL
 //							Log.e("Jack", d1+"");
 //							Log.e("Jack", d2+"");
 //							if(d2.before(d1)) continue;
-					
-							
-							String key =data.CHR_Area+","+data.CHR_Name;
+
+							String key =data.PTNAME1+","+data.V_NAME;
 							ArrayList<ResultData> animalKind = mKind.get(key);
 							if (animalKind == null) {
 								animalKind = new ArrayList<ResultData>();
@@ -392,32 +389,32 @@ public class MainActivity extends Activity implements android.location.LocationL
 							animalKind.add(data);
 							
 							
-							ArrayList<String> towmShip = mCity.get(data.CHR_Area);
+							ArrayList<String> towmShip = mCity.get(data.PTNAME1);
 							if (towmShip == null) {
 								towmShip = new ArrayList<String>();
 
 							}
-							mCity.put(data.CHR_Area, towmShip);
-							if(!towmShip.contains(data.CHR_Name)) towmShip.add(data.CHR_Name);
-							
+							mCity.put(data.PTNAME1, towmShip);
+							if(!towmShip.contains(data.V_NAME)) towmShip.add(data.V_NAME);
+
 							  float listdistance = 0;
 				                if (Latitude != null && Longitude != null) {
-				                	MyApi.mGecoder(MainActivity.this, data.CHR_Address);
-				                	
+//				                	MyApi.mGecoder(MainActivity.this, data.CHR_Address)
+									MyApi.cal_TWD97_To_lonlat(Double.parseDouble(data.TM97_X),Double.parseDouble(data.TM97_Y));
 				                    Location crntLocation = new Location("");
 				                    crntLocation.setLatitude(Double.parseDouble(Latitude));
 				                    crntLocation.setLongitude(Double.parseDouble(Longitude));
 				                    Location newLocation = new Location("");
-				                    newLocation.setLatitude(MyApi.getGeocoderlat());
-				                    newLocation.setLongitude(MyApi.getGeocoderlon());
+				                    newLocation.setLatitude(MyApi.showLat());
+				                    newLocation.setLongitude(MyApi.showLon());
 				                        listdistance = crntLocation.distanceTo(newLocation); // in m
 //				                    listdistance = listdistance / 1000;//km
 				                       data.KmList = (int) listdistance;
-				                    
+
 				                }
-//				              
+
 				                Log.e("Jack","KmList"+data.KmList+"");
-//				                Log.e("Jack","AVAILABLECAR"+data.AVAILABLECAR);
+
 				
 							allData.add(data);
 						Collections.sort(allData);
@@ -544,9 +541,9 @@ public class MainActivity extends Activity implements android.location.LocationL
 			TextView endTextView  =(TextView)convertView. findViewById(R.id.daytext2);
 			TextView numberTextView  =(TextView)convertView. findViewById(R.id.numbertext);
 
-			endTextView.setText("地址:" +data.CHR_Address);
-			cityName.setText("行政區:" + data.CHR_Area);
-			dayText.setText("教會堂所名稱:" + data.CHR_Name);
+			endTextView.setText("地址:" +data.CB_NAME);
+			cityName.setText("行政區:" + data.DATA_STR);
+			dayText.setText("教會堂所名稱:" + data.TOTAL_ADDR);
 
 			mDaytex.setVisibility(View.GONE);
 			//			if(data.班次21.equals("null")){
@@ -569,7 +566,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 //			}
 //			
 			if(data.KmList==0)numberTextView.setVisibility(View.GONE);
-			else 
+			else
 				if(data.KmList<=999)numberTextView.setText("距離約:" + new DecimalFormat("0.0").format(data.KmList)+"m");
 				else numberTextView.setText("距離約:"+new DecimalFormat("0.00").format(data.KmList/1000.00)+"km");
 			Log.e("JacK", data.KmList+"");
