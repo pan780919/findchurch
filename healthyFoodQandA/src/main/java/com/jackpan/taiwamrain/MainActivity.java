@@ -226,8 +226,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 	Log.e("jack","removeUpdates...");
 	this.locationMgr.removeUpdates(this);
 	}
-	public class LoadNetAsyncTask extends
-	AsyncTask<String, Void, ArrayList<ResultData>> {
+	public class LoadNetAsyncTask extends AsyncTask<String, Void, ArrayList<ResultData>> {
 
 		@Override
 		protected void onPostExecute(final ArrayList<ResultData> result) {
@@ -448,6 +447,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 
 		}
 
+
 	}
 
 	public void EditSelect(String id) {
@@ -540,10 +540,11 @@ public class MainActivity extends Activity implements android.location.LocationL
 					.findViewById(R.id.daytext);
 			TextView endTextView  =(TextView)convertView. findViewById(R.id.daytext2);
 			TextView numberTextView  =(TextView)convertView. findViewById(R.id.numbertext);
+			cityName.setText("名稱:" + data.CB_NAME);
+			dayText.setText("地區:" + data.PTNAME1+data.V_NAME);
+			endTextView.setText("地址:" +data.TOTAL_ADDR);
 
-			endTextView.setText("地址:" +data.CB_NAME);
-			cityName.setText("行政區:" + data.DATA_STR);
-			dayText.setText("教會堂所名稱:" + data.TOTAL_ADDR);
+
 
 			mDaytex.setVisibility(View.GONE);
 			//			if(data.班次21.equals("null")){

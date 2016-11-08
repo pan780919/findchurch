@@ -21,11 +21,12 @@
         android:layout_height="wrap_content"
         android:text="name"
         android:textSize="20dp"      
-		android:maxEms="20"  
+		android:maxEms="10"
 		android:singleLine="true" 
 		android:ellipsize="end" 
         android:scrollbars="vertical"
-        >
+
+            >
 </TextView>
 
     </RelativeLayout>
