@@ -30,6 +30,15 @@ public class ResultData implements Comparable<ResultData>{
 //	String 講師姓名;
 //	String 上課時間;
 
+	String 縣市 ;// "新竹市",
+	String 字號;// "竹市府產農字第980078687號",
+	String 執照類別;// "獸醫師",
+	String 狀態;// "開業",
+	String 機構名稱;// "全美忠孝動物醫院",
+	String 負責獸醫;// "林孟潔",
+	String 機構電話;// "03-5620869",
+	String 發照日期;// "2015/09/10",
+	String 機構地址;//"新竹市東光路177號"
 //	String CHR_ID;
 //	String CHR_Area;
 //	String CHR_Name;
@@ -45,18 +54,18 @@ public class ResultData implements Comparable<ResultData>{
 //	String bulletin_off;
 //	String openarea;//發佈區域
 
-	String	CB_NAME;// "祥光寺",
-	String CB_SNAME;// "祥光寺",
-	String PTNAME1;// "文山區",
-	String V_NAME;// "政大里",
-	String CB_REG_TITLE;// "佛教",
-	String PRESIDENT_NAME;//"高榮華",
-	String CB_TEL;// "29390543",
-	String TOTAL_ADDR;//萬壽路63號",
-	String R_STREET;//萬壽路",
-	String R_LANE;//
-	String R_ALLEY;//
-	String R_NO ;// "63號",
+//	String	CB_NAME;// "祥光寺",
+//	String CB_SNAME;// "祥光寺",
+//	String PTNAME1;// "文山區",
+//	String V_NAME;// "政大里",
+//	String CB_REG_TITLE;// "佛教",
+//	String PRESIDENT_NAME;//"高榮華",
+//	String CB_TEL;// "29390543",
+//	String TOTAL_ADDR;//萬壽路63號",
+//	String R_STREET;//萬壽路",
+//	String R_LANE;//
+//	String R_ALLEY;//
+//	String R_NO ;// "63號",
 
 	String TM97_X;// "309453.733",
 	String TM97_Y;// "2764617.394",

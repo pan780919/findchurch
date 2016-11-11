@@ -109,19 +109,20 @@ public class MainActivity extends Activity implements android.location.LocationL
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);// 螢幕一直亮
 		getWindow().setSoftInputMode(
 				WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);// 不彈跳出鍵盤
-		progressDialog = ProgressDialog.show(MainActivity.this, "讀取中",
-				"目前資料量比較龐大，請耐心等候！！", false, false,
-				new DialogInterface.OnCancelListener() {
 
-			@Override
-			public void onCancel(DialogInterface dialog) {
-				//
-				isCencel = true;
-				finish();
-			}
-		});
 		 calendar = Calendar.getInstance();
-
+//
+//		progressDialog = ProgressDialog.show(MainActivity.this, "讀取中",
+//				"目前資料量比較龐大，請耐心等候！", false, false,
+//				new DialogInterface.OnCancelListener() {
+//
+//					@Override
+//					public void onCancel(DialogInterface dialog) {
+//						//
+//						isCencel = true;
+//						finish();
+//					}
+//				});
 //		VersionChecker.checkOnce(this, new VersionChecker.DoneAdapter() {
 //
 //			@Override
@@ -226,12 +227,26 @@ public class MainActivity extends Activity implements android.location.LocationL
 	Log.e("jack","removeUpdates...");
 	this.locationMgr.removeUpdates(this);
 	}
-	public class LoadNetAsyncTask extends AsyncTask<String, Void, ArrayList<ResultData>> {
+
+	private static final String TAG = "MainActivity";
+	public class LoadNetAsyncTask extends AsyncTask<String, Integer, ArrayList<ResultData>> {
+		@Override
+		protected void onPreExecute() {
+			super.onPreExecute();
+			progressDialog = new ProgressDialog(MainActivity.this);
+			progressDialog.setTitle("下載中");
+			progressDialog.setMessage("因資料量比較龐大，請耐心等候！");
+			progressDialog.setCancelable(false);
+			progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+			progressDialog.setIndeterminate(true);
+			progressDialog.show();
+		}
 
 		@Override
 		protected void onPostExecute(final ArrayList<ResultData> result) {
 			super.onPostExecute(result);
 			progressDialog.dismiss();
+
 			if (result == null) {
 				new AlertDialog.Builder(MainActivity.this)
 				.setTitle("出錯囉!!")
@@ -309,6 +324,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 		}
 
 
+
 		@Override
 		protected ArrayList<ResultData> doInBackground(String... params) {
 			BufferedReader br = null;
@@ -329,7 +345,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 					sb.append(value);
 				}
 				String result = sb.toString();
-
+				Log.d(TAG, "doInBackground: "+result.length());
 				ArrayList<ResultData> allData = new ArrayList<ResultData>();
 				mKind = new HashMap<String, ArrayList<ResultData>>();//city
 				mCity = new HashMap<String,ArrayList<String>>();
@@ -337,22 +353,27 @@ public class MainActivity extends Activity implements android.location.LocationL
 				try {
 
 //					JSONArray jsonarry = new JSONArray(result.replaceAll("\\},\\s?\\{", ","));
-//					JSONArray jsonarry2 = new JSONArray(result);
+					JSONArray jsonarry2 = new JSONArray(result);
 
-					JSONObject o = new JSONObject(result);
-				    JSONObject resultObj = o.getJSONObject("result");
-				    JSONArray jsonarry2 = resultObj.getJSONArray("results");
-					Log.e("Jack", "jsonarry:" + jsonarry2.length());
-					
+//					JSONObject o = new JSONObject(result);
+//				    JSONObject resultObj = o.getJSONObject("result");
+//				    JSONArray jsonarry2 = resultObj.getJSONArray("results");
+
+
+
 	
 						for(int i = 0 ; i<jsonarry2.length();i++){
+							int count = jsonarry2.length();
+//							publishProgress(Integer.valueOf(i));
+//							Log.d(TAG, "onProgressUpdate: "+Integer.valueOf(i));
+							publishProgress((int) ((i / (float) count) * 100));
 //							JSONArray jsonarry2 =jsonarry.getJSONArray(i);
 //							for( int j =0 ; j<jsonarry2.length() ; j++){
-//					
+//
 //							JSONObject jsonObject = jsonarry.getJSONObject(i);
 //						
 							JSONObject jsonObject = jsonarry2.getJSONObject(i);
-							Log.e("Jack", jsonObject.toString());
+
 					
 							
 							Gson gson = new Gson();
@@ -377,7 +398,7 @@ public class MainActivity extends Activity implements android.location.LocationL
 //							Log.e("Jack", d2+"");
 //							if(d2.before(d1)) continue;
 
-							String key =data.PTNAME1+","+data.V_NAME;
+							String key =data.縣市+","+data.機構名稱;
 							ArrayList<ResultData> animalKind = mKind.get(key);
 							if (animalKind == null) {
 								animalKind = new ArrayList<ResultData>();
@@ -388,24 +409,24 @@ public class MainActivity extends Activity implements android.location.LocationL
 							animalKind.add(data);
 							
 							
-							ArrayList<String> towmShip = mCity.get(data.PTNAME1);
+							ArrayList<String> towmShip = mCity.get(data.縣市);
 							if (towmShip == null) {
 								towmShip = new ArrayList<String>();
 
 							}
-							mCity.put(data.PTNAME1, towmShip);
-							if(!towmShip.contains(data.V_NAME)) towmShip.add(data.V_NAME);
+							mCity.put(data.縣市, towmShip);
+							if(!towmShip.contains(data.機構名稱)) towmShip.add(data.機構名稱);
 
 							  float listdistance = 0;
 				                if (Latitude != null && Longitude != null) {
-//				                	MyApi.mGecoder(MainActivity.this, data.CHR_Address)
-									MyApi.cal_TWD97_To_lonlat(Double.parseDouble(data.TM97_X),Double.parseDouble(data.TM97_Y));
+				                	MyApi.mGecoder(MainActivity.this, data.機構地址);
+//									MyApi.cal_TWD97_To_lonlat(Double.parseDouble(data.TM97_X),Double.parseDouble(data.TM97_Y));
 				                    Location crntLocation = new Location("");
 				                    crntLocation.setLatitude(Double.parseDouble(Latitude));
 				                    crntLocation.setLongitude(Double.parseDouble(Longitude));
 				                    Location newLocation = new Location("");
-				                    newLocation.setLatitude(MyApi.showLat());
-				                    newLocation.setLongitude(MyApi.showLon());
+				                    newLocation.setLatitude(MyApi.getGeocoderlat());
+				                    newLocation.setLongitude(MyApi.getGeocoderlon());
 				                        listdistance = crntLocation.distanceTo(newLocation); // in m
 //				                    listdistance = listdistance / 1000;//km
 				                       data.KmList = (int) listdistance;
@@ -447,7 +468,13 @@ public class MainActivity extends Activity implements android.location.LocationL
 
 		}
 
+		@Override
+		protected void onProgressUpdate(Integer... values) {
+			super.onProgressUpdate(values);
+			setProgress(values[0]);
+			progressDialog.setProgress(values[0]);
 
+		}
 	}
 
 	public void EditSelect(String id) {
@@ -540,9 +567,9 @@ public class MainActivity extends Activity implements android.location.LocationL
 					.findViewById(R.id.daytext);
 			TextView endTextView  =(TextView)convertView. findViewById(R.id.daytext2);
 			TextView numberTextView  =(TextView)convertView. findViewById(R.id.numbertext);
-			cityName.setText("名稱:" + data.CB_NAME);
-			dayText.setText("地區:" + data.PTNAME1+data.V_NAME);
-			endTextView.setText("地址:" +data.TOTAL_ADDR);
+			cityName.setText("名稱:" + data.機構名稱);
+			dayText.setText("地區:" + data.縣市);
+			endTextView.setText("地址:" +data.機構地址);
 
 
 

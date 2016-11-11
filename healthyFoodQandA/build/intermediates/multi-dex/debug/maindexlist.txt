@@ -674,7 +674,6 @@ com/google/firebase/messaging/FirebaseMessagingService.class
 android/support/v4/media/MediaDescriptionCompat.class
 com/google/android/gms/games/event/Event.class
 com/google/android/gms/internal/zzde.class
-com/jackpan/taiwamrain/MainActivity$5.class
 com/google/android/gms/ads/internal/overlay/zzv.class
 vpadn/w$a.class
 com/adlocus/c.class
